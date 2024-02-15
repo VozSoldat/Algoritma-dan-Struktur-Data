@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "0146654f0aeb58b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d537d5053952a23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c48a1d69d70788c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pertemuan1/Laporan.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3289dbd02cd10a63",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe6c77fe17dfbb3e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f32b64a7d53bb72",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "30b281486b479309",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ea8df6be36c40816",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "588fc5f1a8bd7a93",
+    "type": "split",
+    "children": [
+      {
+        "id": "80480138e7f800ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "afa821a4e573f8cf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pertemuan1/Laporan.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5b50146d6fd76587",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Pertemuan1/Laporan.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d23c76a8de6c3817",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6cb168301372e09b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Pertemuan1/Laporan.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1f32b64a7d53bb72",
+  "lastOpenFiles": [
+    "Pseudocode",
+    "Pseudocode.pseudo",
+    "Pseudocode.py",
+    "Pseudocode.oy",
+    "Pertemuan1/Tugas1/NomorPolisi.java",
+    "Pertemuan1/Tugas1",
+    "README.md",
+    "Pertemuan1/Praktikum4/Fungsi.java",
+    "Pertemuan1/Praktikum4",
+    "Pertemuan1/Praktikum3/Array.java",
+    "Pertemuan1/Praktikum2/Perulangan.java",
+    "Pertemuan1/Praktikum1/Pemilihan.java",
+    "Pertemuan1/Laporan.md",
+    "Pekan1/Praktikum1/Laporan.md",
+    "Pekan1/Laporan.md",
+    "Untitled.md",
+    "Pasted image 20240213110349.png"
+  ]
+}
