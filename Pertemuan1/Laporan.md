@@ -78,8 +78,8 @@
 		```
 	- Tampilan console:
 		- ![[Pasted image 20240216084730.png]]
- 		- <img src="Pasted image 20240216084730.png">
-
+		- ![](Pasted%20image%2020240216095436.png)
+	
 - ## Praktikum 2: Perulangan
 	- Deklarasi dan inisialisasi variabel NIM dengan tipe data char. Hal tersebut agar program dapat mendapatkan karakter ke-10 (index:9).
 		```java
