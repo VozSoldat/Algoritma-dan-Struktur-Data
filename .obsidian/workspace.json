@@ -11,11 +11,9 @@
             "id": "5c48a1d69d70788c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Pertemuan1/Laporan.md",
-                "mode": "preview",
-                "source": true
+                "file": "Pasted image 20240216091546.png"
               }
             }
           }
@@ -69,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "588fc5f1a8bd7a93",
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pertemuan1/Laporan.md",
+                "file": "Pasted image 20240216091546.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pertemuan1/Laporan.md",
+                "file": "Pasted image 20240216091546.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pertemuan1/Laporan.md"
+                "file": "Pasted image 20240216091546.png"
               }
             }
           }
@@ -149,8 +146,9 @@
   },
   "active": "5c48a1d69d70788c",
   "lastOpenFiles": [
-    "Pasted image 20240216091546.png",
     "Pasted image 20240216084730.png",
+    "Pertemuan1/Laporan.md",
+    "Pasted image 20240216091546.png",
     "Pseudocode",
     "Pseudocode.pseudo",
     "Pseudocode.py",
@@ -162,7 +160,6 @@
     "Pertemuan1/Praktikum4",
     "Pertemuan1/Praktikum3/Array.java",
     "Pertemuan1/Praktikum2/Perulangan.java",
-    "Pertemuan1/Laporan.md",
     "Pekan1/Praktikum1/Laporan.md",
     "Pekan1/Laporan.md",
     "Untitled.md",
