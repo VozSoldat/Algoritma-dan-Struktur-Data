@@ -24,6 +24,20 @@ static char[][] kota = {kotaString[0].toCharArray(), kotaString[1].toCharArray()
             cetakKota(1);
         } else if (inputPilih.equalsIgnoreCase("d")) {
             cetakKota(2);
+        } else if (inputPilih.equalsIgnoreCase("e")) {
+            cetakKota(3);
+        }else if (inputPilih.equalsIgnoreCase("f")) {
+            cetakKota(4);
+        }else if (inputPilih.equalsIgnoreCase("g")) {
+            cetakKota(5);
+        }else if (inputPilih.equalsIgnoreCase("h")) {
+            cetakKota(6);
+        }else if (inputPilih.equalsIgnoreCase("l")) {
+            cetakKota(7);
+        }else if (inputPilih.equalsIgnoreCase("n")) {
+            cetakKota(8);
+        }else if (inputPilih.equalsIgnoreCase("t")) {
+            cetakKota(9);
         }
 
     }
