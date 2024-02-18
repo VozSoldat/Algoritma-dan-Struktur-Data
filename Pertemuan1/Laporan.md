@@ -77,7 +77,6 @@
 		}
 		```
 	- Tampilan console:
-		- ![[Pasted image 20240216084730.png]]
 		- <img src="https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pasted%20image%2020240216084730.png">
 	
 - ## Praktikum 2: Perulangan
@@ -119,6 +118,7 @@
 		```
 	- Tampilan console:
 		- ![[Pasted image 20240216091546.png]]
+ 		- <img src="https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pasted%20image%2020240216091546.png">
 
 - ## Praktikum 3: Array
 	- Buat variabel-variabel untuk menyimpan nilai baik tunggal maupun larik (array).
