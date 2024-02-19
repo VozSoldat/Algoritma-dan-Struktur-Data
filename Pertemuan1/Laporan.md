@@ -87,7 +87,7 @@
 		nim = sc.next().charAt(9);
 		System.out.println("============");
 		```
-	\
+	
 	- Gunakan method Character.getNumericValue untuk mengambil karakter pada index:9 sebagai angka. Kemudian casting menjadi short untuk menyamakan dengan tipe data variabel `angkaAkhir`.
 		```java
 		short angkaAkhir = (short) Character.getNumericValue(nim);

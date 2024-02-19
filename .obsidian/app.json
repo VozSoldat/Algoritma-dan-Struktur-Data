@@ -1,4 +1,4 @@
 {
-  "autoConvertHtml": false,
-  "useMarkdownLinks": true
+  "autoConvertHtml": true,
+  "useMarkdownLinks": false
 }
