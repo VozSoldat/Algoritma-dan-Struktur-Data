@@ -77,8 +77,7 @@
 		}
 		```
 	- Tampilan console:
-		- ![[Pasted image 20240216084730.png]]
-		- ![](Pasted%20image%2020240216095436.png)
+		- <img src="https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pasted%20image%2020240216084730.png">
 	
 - ## Praktikum 2: Perulangan
 	- Deklarasi dan inisialisasi variabel NIM dengan tipe data char. Hal tersebut agar program dapat mendapatkan karakter ke-10 (index:9).
@@ -118,7 +117,7 @@
 		}
 		```
 	- Tampilan console:
-		- ![[Pasted image 20240216091546.png]]
+ 		- <img src="https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pasted%20image%2020240216091546.png">
 
 - ## Praktikum 3: Array
 	- Buat variabel-variabel untuk menyimpan nilai baik tunggal maupun larik (array).
@@ -201,7 +200,7 @@
 		System.out.printf(Locale.US, "IP : "+ "%1.2f%n", indeksPrestasi);
 		```
 	- Gambar tampilan
-		- ![](Pasted%20image%2020240218104304.png)
+  		- <img src="https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pasted%20image%2020240218104304.png">
 
 - ## Praktikum 4: Fungsi
 	- Inisialisasi variabel-variabel untuk menyimpan informasi yang diketahui.
@@ -266,8 +265,8 @@
 		```
 	
 	- Gambar tampilan 
-		- ![](Pasted%20image%2020240218104148.png)
-		- ![](Pasted%20image%2020240218104156.png)
+  		- <img src="https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pasted%20image%2020240218104148.png">
+  		- <img src="https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pasted%20image%2020240218104156.png">
 
 - ## Tugas
 	- ### Kode Wilayah Nomor Polisi
@@ -319,7 +318,7 @@
 	        }
 			```
 		- Gambar tampilan
-			- ![](Pasted%20image%2020240218102734.png)
+   			- <img src="https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pasted%20image%2020240218102734.png">
 	
 	- ### Fisika
 		- Buat fungsi penghitung kecepatan. Persamaan kecepatan yakni $v=\frac{s}{t}$ . Fungsi kecepatan, jara, dan waktu mengembalikan nilai String.
@@ -390,4 +389,4 @@
 	        System.out.println(hasil);
 			```
 		- Gambar tampilan
-			- ![](Pasted%20image%2020240218102648.png)
+   			- <img src="https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pasted%20image%2020240218102648.png">
