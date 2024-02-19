@@ -28,7 +28,9 @@ public class Buku18 {
     void gantiHarga(int hrg){
         harga=hrg;
     }
-    
+    public Buku18(){
+
+    }
     public Buku18(String jud, String pg, int hal, int stok, int har){
         judul = jud;
         pengarang = pg;
@@ -36,7 +38,5 @@ public class Buku18 {
         this.stok = stok;
         harga = har;
     }
-    public Buku18(){
 
-    }
 }
