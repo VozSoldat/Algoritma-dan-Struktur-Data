@@ -1,4 +1,4 @@
-# Laporan Hasil Praktikum Pemilihan
+# Laporan Hasil Praktikum Objek
 #### Muhammad Erril Putra Pratidina
 ##### Kelas TI-1H
 ##### NIM: 2341720183
