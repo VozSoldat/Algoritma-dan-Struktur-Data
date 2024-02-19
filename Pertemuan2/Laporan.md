@@ -28,9 +28,11 @@
 				}
 				```
 			5. Parameter pada method restock() berupa int karena parameter tersebut digunakan untuk menyimpan jumlah barang baru-datang atau restock.
-- ## Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
-	- ddd
-	- ### Pertanyaan
+- ## 2.2. Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
+	- ### 2.2.1. Langkah-Langkah Percobaan
+	- ### 2.2.2. Verifikasi Hasil Percobaan
+		- ![](Screenshot%202024-02-19%20103927.png)
+	- ### 2.2.3. Pertanyaan
 		1. Pada class BukuMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
 		2. Bagaimana cara mengakses atribut dan method dari suatu objek?
 		3. Mengapa hasil output pemanggilan method tampilInformasi() pertama dan kedua berbeda?
@@ -42,9 +44,11 @@
 				Nama objek yang dihasilkan yaitu **bk1**.
 			2. Untuk mengakses atribut dan method suatu objek, kita perlu membuat class lain untuk meng-instansiasi objek tadi. Pertama, instansiasi objek, yaitu pada bagian `Buku bk1 = new Buku();`. Kemudian tulis atribut dan method milik objek dengan format \<nama objek>.\<nama atribut> atau \<nama objek>.\<nama method()>.
 			3. Karena urutan method milik objek yang ditulis pada program BukuMain. `tampilInformasi()` yang pertama menunjukkan nilai-nilai atribut yang diinisialisasi di awal. Kemudian tertulis `method bk1.terjual(5);` dan `bk1.gantiHarga(60000);` yang mengubah nilai dalam atribut objek. Nilai akhir ditampilkan kembali ketik method `tampilInformasi()` ditulis lagi.
-- ## Percobaan 3: Membuat Constructure
-	- jjj
-	- ### Pertanyaan
+- ## 2.3. Percobaan 3: Membuat Constructure
+	- ### 2.3.1. Langkah-Langkah Percobaan
+	- ### 2.3.2. Verifikasi Hasil Percobaan
+		- ![](Screenshot%202024-02-19%20105707.png)
+	- ### 2.3.3. Pertanyaan
 		1. Pada class Buku di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!
 		2. Perhatikan class BukuMain. Apa sebenarnya yang dilakukan pada baris program berikut?![](Pasted%20image%2020240219105932.png)
 		3. Hapus konstruktor default pada class Buku, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
