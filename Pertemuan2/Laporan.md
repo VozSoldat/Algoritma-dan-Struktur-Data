@@ -143,4 +143,121 @@
 					Buku18 bukuMuhErril = new Buku18("Buku Sakti Java Khatam Satu Minggu", "Erril", 900, 5, 99000);
 					```
 - ## 2.4. Latihan Praktikum
-	1. 
+	1. Pada class Buku yang telah dibuat, tambahkan tiga method yaitu `hitungHargaTotal()`, `hitungDiskon()`, dan `hitungHargaBayar()`:
+		1. hitungHargaTotal():
+			```java
+			void hitungHargaTotal(){
+			hargaTotal = jmlTerjual*harga;
+			```
+		2. hitungDiskon();
+			```java
+			if (hargaTotal>150000) {
+			
+				diskon = hargaTotal*0.12;
+			
+				// hargaPascaDiskon= hargaTotal-diskon;
+			
+			}else if (hargaTotal>75000) {
+			
+				diskon = hargaTotal*0.05;
+			
+				// hargaPascaDiskon= hargaTotal-diskon;
+			
+			}
+			```
+		3. hitungHargaBayar();
+			```java
+			void hitungHargaBayar(){
+				hargaPascaDiskon = hargaTotal-diskon;
+			}
+			```
+	2. Membuat naga.
+		Naga.java
+		```java
+		package Pertemuan2;
+		public class Naga {
+		
+			int x, y, width, height;
+		
+		  
+		
+			void moveLeft(){
+		
+				x--;
+		
+			}
+		
+			void moveRight(){
+		
+				x++;
+		
+			}
+		
+			void moveUp(){
+		
+				y++;
+		
+			}
+		
+			void moveDown(){
+		
+				y--;
+		
+			}
+		
+			void printPosition(){
+		
+				System.out.println(x+","+y);
+		
+			}
+		
+			void detectCollision(int x, int y){
+		
+				if (x > height || x<0 || y>width || y<0) {
+		
+					System.out.println("Game Over!!!!!!");
+		
+				}
+		
+			}
+		
+		}
+		```
+		NagaMain.java
+		```java
+		package Pertemuan2;
+
+		public class NagaMain {
+		
+		  
+		
+			public static void main(String[] args) {
+		
+				Naga game = new Naga();
+		
+				game.width = 10;
+		
+				game.height = 10;
+		
+				game.x = 5;
+		
+				game.y = 5;
+		
+		  
+		
+				for (int i = 0; i < 20; i++) {
+		
+					game.printPosition();
+		
+					game.detectCollision(game.x, game.y);
+		
+					game.moveDown();
+		
+				}
+		
+		  
+		
+			}
+		
+		}
+		```
