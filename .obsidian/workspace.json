@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pertemuan1/Laporan.md",
-                "mode": "preview",
-                "source": true
+                "file": "Pertemuan2/Laporan.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "588fc5f1a8bd7a93",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pertemuan1/Laporan.md",
+                "file": "Pertemuan2/Laporan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pertemuan1/Laporan.md",
+                "file": "Pertemuan2/Laporan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pertemuan1/Laporan.md"
+                "file": "Pertemuan2/Laporan.md"
               }
             }
           }
@@ -148,29 +148,29 @@
   },
   "active": "5c48a1d69d70788c",
   "lastOpenFiles": [
-    "Pasted image 20240218104304.png",
+    "Pertemuan2/Screenshot 2024-02-19 101939.png",
     "Pasted image 20240218104156.png",
+    "Pasted image 20240218104304.png",
+    "Pasted image 20240219112153.png",
+    "Pertemuan2/Laporan.md",
+    "Pertemuan1/Laporan.md",
+    "Pertemuan2/Pasted image 20240219105932.png",
+    "Pasted image 20240216084730.png",
+    "Pertemuan2/BukuMain18.java",
+    "Pertemuan2/Buku18.java",
+    "Pertemuan2/Percobaan1/BukuMain18.java",
+    "Pertemuan2/Percobaan2/BukuMain18.java",
+    "Pertemuan2/Percobaan2",
+    "Pertemuan2/Percobaan1/Buku18.java",
+    "Pertemuan2/Percobaan1",
+    "Pertemuan2/Praktikum1/Buku18.java",
+    "Pertemuan2/Praktikum1/DeklarasiClass.java",
+    "Pertemuan2/Praktikum1/DeklarasiClass",
     "Pasted image 20240218104150.png",
     "Pasted image 20240218104148.png",
     "Pasted image 20240218102833.png",
     "Pasted image 20240218102818.png",
-    "Pasted image 20240218102734.png",
-    "Pasted image 20240218102648.png",
-    "Pasted image 20240216084730.png",
-    "Pertemuan1/Laporan.md",
-    "Pasted image 20240216095436.png",
-    "Pasted image 20240216095353.png",
-    "Pseudocode",
-    "Pseudocode.pseudo",
-    "Pseudocode.py",
-    "Pseudocode.oy",
-    "Pertemuan1/Tugas1/NomorPolisi.java",
-    "Pertemuan1/Tugas1",
     "README.md",
-    "Pertemuan1/Praktikum4/Fungsi.java",
-    "Pertemuan1/Praktikum4",
-    "Pertemuan1/Praktikum3/Array.java",
-    "Pertemuan1/Praktikum2/Perulangan.java",
     "Pekan1/Praktikum1/Laporan.md",
     "Pekan1/Laporan.md",
     "Untitled.md"
