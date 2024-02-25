@@ -1,6 +1,5 @@
-package Pertemuan2;
 
-public class Naga {
+public class Dragon {
     int x, y, width, height;
 
     void moveLeft(){

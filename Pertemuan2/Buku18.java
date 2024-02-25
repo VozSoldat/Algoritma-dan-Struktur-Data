@@ -1,4 +1,4 @@
-package Pertemuan2;
+
 
 /**
  * Buku18

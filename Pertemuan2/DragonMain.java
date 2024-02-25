@@ -1,9 +1,9 @@
-package Pertemuan2;
 
-public class NagaMain {
+
+public class DragonMain {
 
     public static void main(String[] args) {
-        Naga game = new Naga();
+        Dragon game = new Dragon();
         game.width = 10;
         game.height = 10;
         game.x = 5;
