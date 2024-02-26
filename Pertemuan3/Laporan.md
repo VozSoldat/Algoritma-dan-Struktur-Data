@@ -98,18 +98,7 @@ sgArray ke-3 alas: 25, tinggi: 10
 6. Kemudian menggunakan looping, cetak luas dan keliling dengan cara memanggil method `hitungLuas()` dan `hitungKeliling()`.
 ### Jawaban
 1. Bisa. Kode program tidak mengalami error ketika dituliskan baris kode di bawah. Nilai yang ditulis dalam parameter pada class main akan disimpan pada attribute dalam kedua konstruktor.
-```java
-public Balok(int p, int l, int t){
-	panjang = p;
-	lebar = l;
-	tinggi = t;
-
-}
-public Balok(int p){
-	panjang = p;
-}
-```
-2. Hasil kode program soal nomor 2 sampai 5:
+2. Hasil kode program nomor 2-5. Lihat `Pertemuan3\ArrayBalok\Segitiga.java`
 ```java
 package Pertemuan3.ArrayBalok;
 
@@ -121,8 +110,8 @@ public class Segitiga {
         alas = a;
         tinggi = t;
     }
-    int hitungLuas(){
-        return alas * tinggi;
+    double hitungLuas(){
+        return alas * tinggi/2;
     }
     double hitungKeliling(){
         return alas+tinggi+Math.hypot(tinggi, alas);
@@ -144,9 +133,7 @@ public class Segitiga {
 }
 ```
 ## 3.5. Latihan Praktikum
-### 3.2.1. Langkah-Langkah Percobaan
-### 3.2.2. Verifikasi Hasil Percobaan
-
-### 3.2.3. Pertanyaan
 
 ### Jawaban
+1. Program pada folder `Pertemuan3\LatihanPraktikum`.
+2. 

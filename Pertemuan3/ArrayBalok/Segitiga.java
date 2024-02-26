@@ -8,8 +8,8 @@ public class Segitiga {
         alas = a;
         tinggi = t;
     }
-    int hitungLuas(){
-        return alas * tinggi;
+    double hitungLuas(){
+        return alas * tinggi/2;
     }
     double hitungKeliling(){
         return alas+tinggi+Math.hypot(tinggi, alas);
