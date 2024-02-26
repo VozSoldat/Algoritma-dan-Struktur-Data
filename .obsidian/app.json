@@ -1,4 +1,5 @@
 {
   "autoConvertHtml": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "showLineNumber": true
 }

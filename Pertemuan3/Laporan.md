@@ -9,10 +9,11 @@
 ![](Pasted%20image%2020240226095131.png)
 ### 3.2.3. Pertanyaan
 1. Berdasarkan uji coba 3.2, apakah class yang akan dibuat array of object harus selalu memiliki atribut dan sekaligus method?Jelaskan!
-2. Apakah class PersegiPanjang memiliki konstruktor?Jika tidak, kenapa dilakukan pemanggilan konstruktur pada baris program berikut : ![](Pasted%20image%2020240226093818.png)
-3. Apa yang dimaksud dengan kode berikut ini: ![](Pasted%20image%2020240226093846.png)
-4. Apa yang dimaksud dengan kode berikut ini: ![](Pasted%20image%2020240226093902.png)
-5. Mengapa class main dan juga class PersegiPanjang dipisahkan pada uji coba 3.2?
+2. Apakah class PersegiPanjang memiliki konstruktor? Jika tidak, kenapa dilakukan pemanggilan konstruktur pada baris program berikut :
+![](Pasted%20image%2020240226093818.png)
+4. Apa yang dimaksud dengan kode berikut ini: ![](Pasted%20image%2020240226093846.png)
+5. Apa yang dimaksud dengan kode berikut ini: ![](Pasted%20image%2020240226093902.png)
+6. Mengapa class main dan juga class PersegiPanjang dipisahkan pada uji coba 3.2?
 ### Jawaban
 1. Untuk dibuat ke dalam array of object, class tidak perlu memiliki attribute ataupun method. Akan tetapi, class yang tidak memiliki salah satu dari keduanya tidak dapat digunakan untuk melakukan apapun.
 2. Class PersegiPanjang tidak memiliki konstruktor. Pemanggilan konstruktor pada bagian instansiasi object `ppArray[1] = new PersegiPanjang():` adalah langkah yang harus ada dalam instansiasi objek, baik class memiliki konstruktor ataupun tidak.
@@ -68,6 +69,18 @@ System.out.print("Masukkan panjang array: ");
 ![](Pasted%20image%2020240226101425.png)
 
 5. Boleh. Setelah dilakukan eksperimen, adanya baris kode instansiasi yang ganda tidak membuat program error.
+```java
+PersegiPanjang[] ppArray = new PersegiPanjang[panjangArray];
+        ppArray[0] = new PersegiPanjang();
+        for (int i = 0; i < ppArray.length; i++) {
+            ppArray[i] = new PersegiPanjang();
+            System.out.println("Persegi panjang ke-"+i);
+            System.out.print("Masukkan panjang: ");
+            ppArray[i].panjang = sc.nextInt();
+            System.out.println("Masukkan lebar: ");
+            ppArray[i].lebar = sc.nextInt();
+        }
+```
 ## 3.4. Percobaan 3
 ### 3.4.1. Langkah-Langkah Percobaan
 ### 3.4.2. Verifikasi Hasil Percobaan
@@ -96,7 +109,7 @@ public Balok(int p){
 	panjang = p;
 }
 ```
-2. Kode program nomor 2 sampai 5:
+2. Hasil kode program soal nomor 2 sampai 5:
 ```java
 package Pertemuan3.ArrayBalok;
 

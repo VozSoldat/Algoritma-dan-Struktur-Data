@@ -9,7 +9,7 @@ public class ArrayObjects {
         System.out.print("Masukkan panjang array: ");
         int panjangArray = sc.nextInt();
         PersegiPanjang[] ppArray = new PersegiPanjang[panjangArray];
-
+        ppArray[0] = new PersegiPanjang();
         for (int i = 0; i < ppArray.length; i++) {
             ppArray[i] = new PersegiPanjang();
             System.out.println("Persegi panjang ke-"+i);
