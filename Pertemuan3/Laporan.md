@@ -56,7 +56,7 @@ public class ContohArray2D {
     }
 }
 ```
-3. Array `pgArray[5]` belum diinstansiasi, sehingga  attribute sisi tidak dapat diisikan nilai.
+3. Array `pgArray[5]` belum diinstansiasi, sehingga  attribute sisi tidak dapat diberi nilai.
 4. Kode program:
 ```java
 System.out.print("Masukkan panjang array: ");
@@ -66,7 +66,8 @@ System.out.print("Masukkan panjang array: ");
         PersegiPanjang[] ppArray = new PersegiPanjang[panjangArray];
 ```
 ![](Pasted%20image%2020240226101425.png)
-5. Boleh. 
+
+5. Boleh. Setelah dilakukan eksperimen, adanya baris kode instansiasi yang ganda tidak membuat program error.
 ## 3.4. Percobaan 3
 ### 3.4.1. Langkah-Langkah Percobaan
 ### 3.4.2. Verifikasi Hasil Percobaan
