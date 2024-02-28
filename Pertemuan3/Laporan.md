@@ -136,4 +136,4 @@ public class Segitiga {
 
 ### Jawaban
 1. Program pada folder `Pertemuan3\LatihanPraktikum`.
-2. 
+2. Program pada folder `Pertemuan3\LatihanPraktikumMahasiswa`.

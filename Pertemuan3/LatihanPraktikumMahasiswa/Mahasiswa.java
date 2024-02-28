@@ -5,4 +5,6 @@ public class Mahasiswa {
     String nim;
     char jenisKelamin;
     double ipk;
+
+    
 }
