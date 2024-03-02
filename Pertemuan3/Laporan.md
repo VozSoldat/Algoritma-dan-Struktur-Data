@@ -1,16 +1,23 @@
 # 3. Laporan Hasil Praktikum Objek
+
+
 #### Muhammad Erril Putra Pratidina
 ##### Kelas TI-1H
 ##### NIM: 2341720183
 
 ## 3.2. Percobaan 1
 ### 3.2.1. Langkah-Langkah Percobaan
+1. Buat Project baru, dengan nama “ArrayObjects”.
+2. Buat class PersegiPanjang:
+3. Pada fungsi main yaitu pada class ArrayObjects, buatlah array PersegiPanjang yang berisi 3 elemen:
+4. Kemudian isikan masing-masing atributnya:
+5. Cetak ke layar semua atribut dari objek ppArray: 
+6. Jalankan dan amati hasilnya.
 ### 3.2.2. Verifikasi Hasil Percobaan
 ![](Pasted%20image%2020240226095131.png)
 ### 3.2.3. Pertanyaan
 1. Berdasarkan uji coba 3.2, apakah class yang akan dibuat array of object harus selalu memiliki atribut dan sekaligus method?Jelaskan!
-2. Apakah class PersegiPanjang memiliki konstruktor? Jika tidak, kenapa dilakukan pemanggilan konstruktur pada baris program berikut :
-![](Pasted%20image%2020240226093818.png)
+2. Apakah class PersegiPanjang memiliki konstruktor? Jika tidak, kenapa dilakukan pemanggilan konstruktur pada baris program berikut : ![](Pasted%20image%2020240226093818.png)
 4. Apa yang dimaksud dengan kode berikut ini: ![](Pasted%20image%2020240226093846.png)
 5. Apa yang dimaksud dengan kode berikut ini: ![](Pasted%20image%2020240226093902.png)
 6. Mengapa class main dan juga class PersegiPanjang dipisahkan pada uji coba 3.2?
@@ -22,6 +29,10 @@
 5. Class main adalah tempat meng-instansiasi suatu class menjadi object. Class main tidak wajib dipisahkan dari class yang menjadi konsep. Memisahkan class menjadi main dan class konsep dapat membuat kode program menjadi lebih rapi.
 ## 3.3. Percobaan 2
 ### 3.3.1. Langkah-Langkah Percobaan
+1. Import scanner pada class ArrayObjects. Note: Letakkan kode import dibawah kode package. 
+2. Pada praktikum 3.2 poin nomor 4, ganti kodenya dengan kode berikut ini, yaitu membuat objek Scanner untuk menerima input, kemudian melakukan looping untuk menerima input: 
+3. Pada praktikum 3.2 poin nomor 5, ganti kodenya dengan berikut ini, yaitu melakukan looping untuk mengakses isi array ppArray dan menampilkannya ke layar: 
+4. Jalankan dan amati hasilnya
 ### 3.3.2. Verifikasi Hasil Percobaan
 ![](Pasted%20image%2020240226095931.png)
 
@@ -83,6 +94,12 @@ PersegiPanjang[] ppArray = new PersegiPanjang[panjangArray];
 ```
 ## 3.4. Percobaan 3
 ### 3.4.1. Langkah-Langkah Percobaan
+1. Buat package baru “ArrayBalok”. 
+2. Buat class Balok: 
+3. Pada fungsi main yaitu pada class ArrayBalok, buat array Balok yang berisi 3 elemen: 
+4. Kemudian tambahkan kode berikut ini untuk mengisi array blArray menggunakan konstruktor dari class Balok:
+5. Tampilkan semua volume balok tersebut dengan cara memanggil method hitungVolume() di dalam looping seperti berikut ini: 
+6. Jalankan dan amati hasilnya.
 ### 3.4.2. Verifikasi Hasil Percobaan
 ![](Pasted%20image%2020240226102313.png)
 ### 3.4.3. Pertanyaan
@@ -99,41 +116,8 @@ sgArray ke-3 alas: 25, tinggi: 10
 ### Jawaban
 1. Bisa. Kode program tidak mengalami error ketika dituliskan baris kode di bawah. Nilai yang ditulis dalam parameter pada class main akan disimpan pada attribute dalam kedua konstruktor.
 2. Hasil kode program nomor 2-5. Lihat `Pertemuan3\ArrayBalok\Segitiga.java`
-```java
-package Pertemuan3.ArrayBalok;
-
-public class Segitiga {
-    public int alas;
-    public int tinggi;
-
-    Segitiga(int a, int t){
-        alas = a;
-        tinggi = t;
-    }
-    double hitungLuas(){
-        return alas * tinggi/2;
-    }
-    double hitungKeliling(){
-        return alas+tinggi+Math.hypot(tinggi, alas);
-    }
-
-    public static void main(String[] args) {
-        Segitiga[] sgArray = new Segitiga[4];
-        
-        sgArray[0] = new Segitiga(10, 4);
-        sgArray[1] = new Segitiga(20,10);
-        sgArray[2] = new Segitiga(15, 6);
-        sgArray[3] = new Segitiga(25, 10);
-
-        for (int i = 0; i < sgArray.length; i++) {
-            System.out.println("Luas segitiga ke-"+i+" yaitu "+sgArray[i].hitungLuas());
-            System.out.println("Keliling segitiga yaitu "+ sgArray[i].hitungKeliling());
-        }
-    }
-}
-```
 ## 3.5. Latihan Praktikum
 
 ### Jawaban
 1. Program pada folder `Pertemuan3\LatihanPraktikum`.
-2. Program pada folder `Pertemuan3\LatihanPraktikumMahasiswa`.
+2. Nomor 2 dan 3 lihat program pada folder `Pertemuan3\LatihanPraktikumMahasiswa`.
