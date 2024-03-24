@@ -93,6 +93,8 @@ Di atas adalah kondisi ketika eksponen adalah bilangan genap.
 Ketika nilai `n` menyentuh nilai 0, method akan mengembalikan bilangan 1 sebagai base case method.
 
 2. Sudah ada. Tahap *combine* terjadi ketika semua recursion telah berhenti ketika nilai n == 0 (memenuhi kondisi base case). Semua proses recursion kemudian dikalikan.
+3. Hasil modifikasi lihat `Pertemuan5\MainPangkatMod.java` dan `Pertemuan5\PangkatMod.java`.
+4. 
  
 ## 4.4. Percobaan 3
 ### 4.4.1. Langkah-Langkah Percobaan
