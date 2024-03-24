@@ -93,8 +93,7 @@ Di atas adalah kondisi ketika eksponen adalah bilangan genap.
 Ketika nilai `n` menyentuh nilai 0, method akan mengembalikan bilangan 1 sebagai base case method.
 
 2. Sudah ada. Tahap *combine* terjadi ketika semua recursion telah berhenti ketika nilai n == 0 (memenuhi kondisi base case). Semua proses recursion kemudian dikalikan.
-3. Hasil modifikasi lihat `Pertemuan5\MainPangkatMod.java` dan `Pertemuan5\PangkatMod.java`.
-4. 
+3. **Nomor 3 dan 4 hasil** modifikasi lihat `Pertemuan5\MainPangkatMod.java` dan `Pertemuan5\PangkatMod.java`.
  
 ## 4.4. Percobaan 3
 ### 4.4.1. Langkah-Langkah Percobaan
@@ -111,7 +110,9 @@ Ketika nilai `n` menyentuh nilai 0, method akan mengembalikan bilangan 1 sebagai
 2. Kenapa dibutuhkan variable mid pada method TotalDC()? 
 3. Program perhitungan keuntungan suatu perusahaan ini hanya untuk satu perusahaan saja. Bagaimana cara menghitung sekaligus keuntungan beberapa bulan untuk beberapa perusahaan.(Setiap perusahaan bisa saja memiliki jumlah bulan berbeda-beda)? Buktikan dengan program!
 ### Jawaban
-1. -
+1. Itu adalah fase *combine* dari method *divide-and-conquer*. Hal tersebut digunakan untuk menjumlahkan hasil left summation, right summation, dan bilangan pada elemen-tengah array. 
+2. Cara summation pada method *divide-and-conquer* adalah dengan membagi panjang array menjadi dua, kemudian sisi kiri array dan sisi kanan array dijumlahkan sendiri-sendiri. Variabel `mid` dibuat untuk mengetahui elemen tengah array.
+3. 
 ## 4.5. Latihan Praktikum
 
 ### Jawaban
