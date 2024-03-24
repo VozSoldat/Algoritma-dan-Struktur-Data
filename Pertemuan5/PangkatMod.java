@@ -1,6 +1,6 @@
 package Pertemuan5;
 
-public class Pangkat {
+public class PangkatMod {
     public int nilai, pangkat;
 
     int pangkatBF(int a, int n){
@@ -20,8 +20,12 @@ public class Pangkat {
             return (pangkatDC(a, n/2)*pangkatDC(a, n/2));
         }
     }
-    Pangkat(){
+    PangkatMod(){
 
+    }
+    PangkatMod(int nilai, int pangkat){
+        this.nilai = nilai;
+        this.pangkat = pangkat;
     }
 }
 

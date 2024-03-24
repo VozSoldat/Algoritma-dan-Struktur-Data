@@ -77,7 +77,22 @@ $$
 3. Modifikasi kode program tersebut, anggap proses pengisian atribut dilakukan dengan konstruktor. 
 4. Tambahkan menu agar salah satu method yang terpilih saja yang akan dijalankan menggunakan switch-case!
 ### Jawaban
-1. -
+1. `PangkatBF()` mendapatkan hasil eksponen dengan cara menghitung variabel `a` sebanyak variabel `n` kali. Hal ini didapatkan dengan cara looping perkalian variabel `hasil` dan `a` dengan batas pengulangan `i < n`.
+$$
+a \times a \times a \times ...n
+$$
+`PangkatDC()` mendapatkan hasil eksponen dengan membagi penghitungan dengan kondisi `n == 0`, `n modulus 2 == 1` (bilangan eksponen ganjil), dan bilangan eksponen genap. 
+$$
+a^{n/2} \times a^{n/2} \times a
+$$
+Di atas adalah penghitungan untuk kondisi bilangan eksponen adalah ganjil.
+$$
+a^{n/2} \times a^{n/2}
+$$
+Di atas adalah kondisi ketika eksponen adalah bilangan genap.
+Ketika nilai `n` menyentuh nilai 0, method akan mengembalikan bilangan 1 sebagai base case method.
+
+2. Sudah ada. Tahap *combine* terjadi ketika semua recursion telah berhenti ketika nilai n == 0 (memenuhi kondisi base case). Semua proses recursion kemudian dikalikan.
  
 ## 4.4. Percobaan 3
 ### 4.4.1. Langkah-Langkah Percobaan
