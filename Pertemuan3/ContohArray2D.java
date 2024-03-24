@@ -20,4 +20,14 @@ public class ContohArray2D {
             }
         }
     }
+
+
+}
+
+class Coba {
+    public static void main(String[] args) {
+        ContohArray2D[][] array = new ContohArray2D[3][3];
+        array[0][0] = new ContohArray2D();
+        array[2][2] = new ContohArray2D();
+    }
 }
