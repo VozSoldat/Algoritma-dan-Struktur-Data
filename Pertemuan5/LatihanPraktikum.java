@@ -41,8 +41,8 @@ public class LatihanPraktikum {
             return arr[l];
         } else {
             int mid = (l + r) / 2;
-            double lmin = topAccelDC(arr, l, mid);
-            double rmin = topAccelDC(arr, mid + 1, r);
+            double lmin = minAccelDC(arr, l, mid);
+            double rmin = minAccelDC(arr, mid + 1, r);
             if (lmin < rmin) {
                 return lmin;
             } else {

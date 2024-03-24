@@ -116,4 +116,4 @@ Ketika nilai `n` menyentuh nilai 0, method akan mengembalikan bilangan 1 sebagai
 ## 4.5. Latihan Praktikum
 
 ### Jawaban
-1. -
+1. Hasil lihat Pertemuan5\LatihanPraktikum.java
