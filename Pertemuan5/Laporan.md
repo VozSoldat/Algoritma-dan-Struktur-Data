@@ -81,14 +81,19 @@ $$
 $$
 a \times a \times a \times ...n
 $$
+
 `PangkatDC()` mendapatkan hasil eksponen dengan membagi penghitungan dengan kondisi `n == 0`, `n modulus 2 == 1` (bilangan eksponen ganjil), dan bilangan eksponen genap. 
+
 $$
 a^{n/2} \times a^{n/2} \times a
 $$
+
 Di atas adalah penghitungan untuk kondisi bilangan eksponen adalah ganjil.
+
 $$
 a^{n/2} \times a^{n/2}
 $$
+
 Di atas adalah kondisi ketika eksponen adalah bilangan genap.
 Ketika nilai `n` menyentuh nilai 0, method akan mengembalikan bilangan 1 sebagai base case method.
 
@@ -107,7 +112,7 @@ Ketika nilai `n` menyentuh nilai 0, method akan mengembalikan bilangan 1 sebagai
 ![](Pasted%20image%2020240319220648.png)
 ### 4.4.3. Pertanyaan
 1. Mengapa terdapat formulasi return value berikut?Jelaskan!
-2. Kenapa dibutuhkan variable mid pada method TotalDC()? 
+2. Kenapa dibutuhkan variable mid pada method `TotalDC()`? 
 3. Program perhitungan keuntungan suatu perusahaan ini hanya untuk satu perusahaan saja. Bagaimana cara menghitung sekaligus keuntungan beberapa bulan untuk beberapa perusahaan.(Setiap perusahaan bisa saja memiliki jumlah bulan berbeda-beda)? Buktikan dengan program!
 ### Jawaban
 1. Itu adalah fase *combine* dari method *divide-and-conquer*. Hal tersebut digunakan untuk menjumlahkan hasil left summation, right summation, dan bilangan pada elemen-tengah array. 
@@ -116,4 +121,4 @@ Ketika nilai `n` menyentuh nilai 0, method akan mengembalikan bilangan 1 sebagai
 ## 4.5. Latihan Praktikum
 
 ### Jawaban
-1. Hasil lihat Pertemuan5\LatihanPraktikum.java
+1. Hasil lihat `Pertemuan5\LatihanPraktikum.java`
