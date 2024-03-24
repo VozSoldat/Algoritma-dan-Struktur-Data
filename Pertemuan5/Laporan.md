@@ -112,7 +112,7 @@ Ketika nilai `n` menyentuh nilai 0, method akan mengembalikan bilangan 1 sebagai
 ### Jawaban
 1. Itu adalah fase *combine* dari method *divide-and-conquer*. Hal tersebut digunakan untuk menjumlahkan hasil left summation, right summation, dan bilangan pada elemen-tengah array. 
 2. Cara summation pada method *divide-and-conquer* adalah dengan membagi panjang array menjadi dua, kemudian sisi kiri array dan sisi kanan array dijumlahkan sendiri-sendiri. Variabel `mid` dibuat untuk mengetahui elemen tengah array.
-3. 
+3. Hasil lihat `Pertemuan5\MainSumMod.java`.
 ## 4.5. Latihan Praktikum
 
 ### Jawaban
