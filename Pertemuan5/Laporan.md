@@ -52,13 +52,17 @@
 	}
 	```
 3.  `fakto *= i;` menggunakan perkalian berulang variabel `fakto = 1` dengan variabel `i = 1`, dengan `i` increment pada tiap iterasi. Penghitungan berulang hingga `i <= n`. n adalah bilangan yang di-faktorial-kan. Jadi variabel faktorial akan dikalikan terus-menerus dengan variabel `i` yang nilainya terus increment pada tiap iterasi 
+
 $$
 fakto = i \times (i+1) \times (i+2) \times (i+3) \times ... \times n
 $$
+
 `int fakto = n * faktorialDC(n-1);` menggunakan fungsi rekursif dengan memanggil method dirinya sendiri. Variabel `n` adalah bilangan yang di-faktorial-kan. Nilai variabel `fakto` didapatkan dari
+
 $$
 fakto = n \times (n-1) \times (n-2) \times (n-3) \times ...
 $$
+
 ## 4.3. Percobaan 2
 ### 4.3.1. Langkah-Langkah Percobaan
 1. . Di dalam paket `minggu5`, buatlah class baru dengan nama `Pangkat`. Dan di dalam class `Pangkat` tersebut, buat atribut angka yang akan dipangkatkan sekaligus dengan angka pemangkatnya
@@ -78,6 +82,7 @@ $$
 4. Tambahkan menu agar salah satu method yang terpilih saja yang akan dijalankan menggunakan switch-case!
 ### Jawaban
 1. `PangkatBF()` mendapatkan hasil eksponen dengan cara menghitung variabel `a` sebanyak variabel `n` kali. Hal ini didapatkan dengan cara looping perkalian variabel `hasil` dan `a` dengan batas pengulangan `i < n`.
+
 $$
 a \times a \times a \times ...n
 $$
