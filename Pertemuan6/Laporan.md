@@ -233,4 +233,4 @@
 ## 5.5. Latihan Praktikum
 
 ### Jawaban
-1. -
+1. Hasil lihat `Pertemuan6\latihan_praktikum`
