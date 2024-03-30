@@ -58,5 +58,17 @@ public class DaftarMahasiswaBerprestasi {
         }
     }
 
+    void insertionSortDescending(){
+        for (int i = 1; i < listMhs.length; i++) {
+            Mahasiswa temp = listMhs[i];
+            int j = i;
+            while (j > 0 && listMhs[j-1].ipk < temp.ipk) {
+                listMhs[j] = listMhs[j-1];
+                j--;
+            }
+            listMhs[j] = temp;
+        }
+    }
+
     
 }

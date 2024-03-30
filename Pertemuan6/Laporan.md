@@ -203,9 +203,33 @@
 	___________________________
 
 ### 5.4.3. Pertanyaan
-1. -
+1. Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara descending.
 ### Jawaban
-1. -
+1. Jawaban lihat `Pertemuan6\DaftarMahasiswaBerprestasi.java` method `insertionSortDescending();`.
+```java
+    void insertionSortDescending(){
+
+        for (int i = 1; i < listMhs.length; i++) {
+
+            Mahasiswa temp = listMhs[i];
+
+            int j = i;
+
+            while (j > 0 && listMhs[j-1].ipk < temp.ipk) {
+
+                listMhs[j] = listMhs[j-1];
+
+                j--;
+
+            }
+
+            listMhs[j] = temp;
+
+        }
+
+    }
+```
+
 ## 5.5. Latihan Praktikum
 
 ### Jawaban
