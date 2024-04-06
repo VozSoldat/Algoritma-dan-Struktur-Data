@@ -208,13 +208,14 @@
 ### 6.4.1. Langkah-Langkah Percobaan
 1. -
 ### 6.4.2. Verifikasi Hasil Percobaan
-	-
-### 6.4.3. Pertanyaan
-1.-
-### Jawaban
-1. -
+	sorting dengan merge sort
+	data awal
+	10 40 30 50 70 20 100 90 
+	data setelah diurutkan
+	10 20 30 40 50 70 90 100 
 
 ## 6.5. Latihan Praktikum
 
 ### Jawaban
-1. -`
+1. Hasil lihat `Pertemuan7\LatihanPraktik1`
+2. Hasil lihat `Pertemuan7\LatihanPraktik2`
