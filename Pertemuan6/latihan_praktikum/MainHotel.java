@@ -1,5 +1,8 @@
 package Pertemuan6.latihan_praktikum;
 
+import java.math.MathContext;
+import java.util.logging.LogManager;
+
 public class MainHotel {
     public static void main(String[] args) {
         HotelService service = new HotelService();
@@ -39,6 +42,6 @@ public class MainHotel {
         service.selectionSortDescending();
         service.tampilAll();
 
-
+        
     }
 }
