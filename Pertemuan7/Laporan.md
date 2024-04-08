@@ -6,7 +6,22 @@
 
 ## 6.2. Percobaan 1
 ### 6.2.1. Langkah-Langkah Percobaan
-1. -
+1. Buatlah Project baru pada dengan nama TestSearching 
+2. Kemuadian buat packages baru dengan nama P7 
+3. Buat class BukuNoAbsen, kemudian deklarasikan atribut berikut ini: 
+4. Buatlah konstruktor dengan nama Buku dengan parameter (String kodeBuku, String judulBuku, int tahunTerbit, String pengarang, int stock) kemudian Isi konstruktor tersebut dengan kode berikut! Catatan : Perhatikan konstruktor diatas! Apakah sudah benar? Jika belum, maka perbaiki konstruktor diatas 
+5. Buatlah method tampilDataBuku bertipe void.
+6. Buat class baru dengan nama PencarianBukuNoAbsen seperti di bawah ini! 
+7. Tambahkan method tambah() di dalam class tersebut! Method tambah() digunakan untuk menambahkan objek dari class Buku ke dalam atribut listBk. 
+8. Tambahkan method tampil() di dalam class PencarianBukuNoAbsen Method tampil() digunakan untuk menampilkan semua data buku yang ada di dalam class tersebut! Perhatikan penggunaan sintaks for yang menggunakan konsep for-each. Syntax tersebut akan memberikan tanda error berupa garis merah, Perbaiki agar tidak ada error!
+9. Tambahkan method FindSeqSearch bertipe integer dengan parameter cari bertipe int. Kemudian Deklarasikan isi method FindSeqSearch dengan algoritma pencarian data menggunakan teknik sequential searching.
+10. Buatlah method Tampilpoisisi bertipe void dan Deklarasikan isi dari method Tampilpoisisi. 
+11. Buatlah class baru dengan nama BukuMainNoAbsen tambahkan method main. buatlah sebuah objek PencarianMhs dan buatlah 5 objek buku kemudian tambahkan semua objek buku tersebut dengan memanggil fungsi tambah pada objek PencarianBuku. Note : perbaiki kode jika terdapat kesalahan.
+12. Panggil method tampil() untuk melihat semua data yang telah dimasukan. 
+13. Untuk melakukan pencarian berdasarkan kode buku. Buatlah variable cari yang dapat menampung masukan dari keyboard lalu panggil method FindSeqSearch dengan isi parameternya adalah variable cari. Untuk menampilkan index data yang dicari panggil method TampilPosisi Verifikasi hasil pencarian :
+14. Panggil method tampil() untuk melihat semua data yang telah dimasukan. 
+15. Untuk melakukan pencarian berdasarkan kode buku. Buatlah variable cari yang dapat menampung masukan dari keyboard lalu panggil method FindSeqSearch dengan isi parameternya adalah variable cari. Untuk menampilkan index data yang dicari panggil method TampilPosisi Verifikasi hasil pencarian :
+16. Jalankan dan amati hasilnya.
 
 ### 6.2.2. Verifikasi Hasil Percobaan
 #### Jika ditemukan
@@ -104,11 +119,95 @@
 3. Buat method baru dengan nama `FindBuku` menggunakan konsep sequential search dengan tipe method dari `FindBuku` adalah `BukuNoAbsen`. Sehingga Anda bisa memanggil method tersebut pada class `BukuMain` seperti gambar berikut :
 
 ### Jawaban
-1. -
+1. `break` berfungsi untuk mengakhiri perulangan pada saat itu juga.
+2. Program dapat berjalan dengan benar. Hal tersebut terjadi karena cara kerja algoritma sequential search yang memeriksa data dari kiri ke kanan, tanpa memedulikan besar nilai data yang dicari. 
+#
+	-----------------------------
+	Masukkan data Buku secara Urut dari KodeBuku Terkecil : 
+	------------------------
+	Kode buku       : 5
+	Judul buku       : Q
+	Tahun Terbit     : 2
+	Pengarang        : W
+	Stock    : 2
+	------------------------
+	Kode buku       : 1
+	Judul buku       : D
+	Tahun Terbit     : 2
+	Pengarang        : E
+	Stock    : 2
+	------------------------
+	Kode buku       : 3
+	Judul buku       : R
+	Tahun Terbit     : 3
+	Pengarang        : R
+	Stock    : 3
+	------------------------
+	Kode buku       : 4
+	Judul buku       : R
+	Tahun Terbit     : 3
+	Pengarang        : R
+	Stock    : 3
+	------------------------
+	Kode buku       : 2
+	Judul buku       : E
+	Tahun Terbit     : 4
+	Pengarang        : E
+	Stock    : 4
+	--------------------------------
+	Data keseluruhan Buku :
+	==================================
+	Kode buku: 5
+	Judul buku: Q
+	Tahun terbit: 2
+	Pengarang: W
+	Stock: 2
+	==================================
+	Kode buku: 1
+	Judul buku: D
+	Tahun terbit: 2
+	Pengarang: E
+	Stock: 2
+	==================================
+	Kode buku: 3
+	Judul buku: R
+	Tahun terbit: 3
+	Pengarang: R
+	Stock: 3
+	==================================
+	Kode buku: 4
+	Judul buku: R
+	Tahun terbit: 3
+	Pengarang: R
+	Stock: 3
+	==================================
+	Kode buku: 2
+	Judul buku: E
+	Tahun terbit: 4
+	Pengarang: E
+	Stock: 4
+	_____________________________
+	____________________________
+	Pencarian Data :
+	Masukkan kode buku yang dicari:
+	Kode buku :
+	4
+	Menggunakan sequential search
+	data : 4 ditemukan pada indeks 3
+	Kode buku        : 4
+	Judul    : R
+	Tahun terbit     : 3
+	Pengarang        : R
+	Stock    : 3
+	=======================
+
+3. 
 
 ## 6.3. Percobaan 2
 ### 6.3.1. Langkah-Langkah Percobaan
-1. -
+1. Pada percobaan 6.2.1 (sequential search) tambahkan method FindBinarySearch bertipe integer pada class PencarianBukuNoAbsen. Kemudian Deklarasikan isi method FindBinarySearch dengan algoritma pencarian data menggunakan teknik binary searching. 
+2. Panggil method FindBinarySearch di kelas BukuMainNoAbsen. Kemudia panggil method tampilposisi dan tampilData
+3. Jalankan dan amati hasilnya.
 ### 6.3.2. Verifikasi Hasil Percobaan
 	-----------------------------
 	Masukkan data Buku secara Urut dari KodeBuku Terkecil :
@@ -206,7 +305,16 @@
  
 ## 6.4. Percobaan 3
 ### 6.4.1. Langkah-Langkah Percobaan
-1. -
+1. Buatlah Package baru didalam package P5 dengan nama MergeSortTest 
+2. Tambahkan class MergeSortingNoAbsen pada package tersebut 
+3. Pada class MergeSortingNoAbsen buatlah method mergeSort yang menerima parameter data array yang akan diurutkan 
+4. Buatlah method merge untuk melakukan proses penggabungan data dari bagian kiri dan kanan.
+5. Implementasikan proses merge sebagai berikut. 
+6. Buatlah method sort 
+7. Implementasikan kode berikut pada method sort 
+8. Pada method mergeSort, panggil method sort dengan parameter data yang ingin diurutkan serta range data awal sampai dengan akhir. 
+9. Tambahkan method printArray
+10. Sebagai langkah terakhir, deklarasikan data yang akan diurutkan kemudian panggil proses sorting pada class MergeSortMainNoAbsen. Tambahkan fungsi main pada kelas tersebut, kemudian tuliskan kode berikut didalam fungsi main.
 ### 6.4.2. Verifikasi Hasil Percobaan
 	sorting dengan merge sort
 	data awal

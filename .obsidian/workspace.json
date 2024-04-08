@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5c48a1d69d70788c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pertemuan2/Laporan.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "75aa5cfcee0ad5bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pertemuan5/Laporan.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cf99a2742dcdad93",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "588fc5f1a8bd7a93",
