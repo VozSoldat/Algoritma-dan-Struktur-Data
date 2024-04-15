@@ -346,7 +346,11 @@ int findBinarySearch(int cari, int left, int right){
 ``` 
 
 2. Proses conquer berlangsung dengan memeriksa apakah nilai pada variabel mid kurang dari nilai yang dicari atau lebih dari. Jika kurang dari, maka array kiri akan dicari mid-nya. Jika lebih dari, maka array kanan akan dicari mid-nya. Antara kedua proses akan berlanjut dengan array-nya masing-masing.
-3. Algoritma yang asli berjalan dengan asumsi bahwa array telah diurutkan secara ascending. Kode program tidak bisa berjalan jika input kode buku berupa urutan array descending. Cara agar program dapat berjalan ialah dengan menambahkan sorting descending agar urutan array pasti descending.
+3. Program tidak dapat berjalan.
+![](Pasted%20image%2020240415140251.png)
+Hal tersebut karena cara kerja binary search yang membutuhkan urutan array yang terurut. Algoritma binary search membagi array menjadi bagian kanan dan kiri, kemudian antara kedua array akan dipilih mana yang akan dikerjakan berdasarkan perbandingan antara bilangan yang dicari dan bilangan variabel mid.
+
+5. Algoritma yang asli berjalan dengan asumsi bahwa array telah diurutkan secara ascending. Kode program tidak bisa berjalan jika input kode buku berupa urutan array descending. Cara agar program dapat berjalan ialah dengan menambahkan sorting descending agar urutan array pasti descending.
 ```java
 int findBinarySearch(int cari, int left, int right){
         // sorting descending

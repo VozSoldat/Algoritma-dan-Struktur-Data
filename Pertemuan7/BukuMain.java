@@ -56,9 +56,9 @@ public class BukuMain {
         data.tampilPosisi(cari, posisi);
         data.tampilData(cari, posisi);
 
-        System.out.println("=======================");
-        Buku18 dataBuku18 = data.findBuku(Integer.toString(cari));
-        dataBuku18.tampilDataBuku();
+        // System.out.println("=======================");
+        // Buku18 dataBuku18 = data.findBuku(Integer.toString(cari));
+        // dataBuku18.tampilDataBuku();
 
     }
 }
