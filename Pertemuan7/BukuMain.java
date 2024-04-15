@@ -55,5 +55,10 @@ public class BukuMain {
         posisi = data.findBinarySearch(cari, 0, jumBuku-1);
         data.tampilPosisi(cari, posisi);
         data.tampilData(cari, posisi);
+
+        System.out.println("=======================");
+        Buku18 dataBuku18 = data.findBuku(Integer.toString(cari));
+        dataBuku18.tampilDataBuku();
+
     }
 }

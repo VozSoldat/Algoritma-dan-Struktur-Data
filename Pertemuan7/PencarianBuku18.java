@@ -72,4 +72,14 @@ public class PencarianBuku18 {
         }
         return -1;
     }
+
+    public Buku18 findBuku(String Buku18) {
+        for (int j = 0; j < listBk.length; j++) {
+            if (listBk[j].equals(Buku18)) {
+                return listBk[j];
+            }
+        }
+        return null;
+    }
+    
 }

@@ -201,7 +201,31 @@
 	Stock    : 3
 	=======================
 
-3. 
+3. Jawaban
+```java
+ public Buku18 findBuku(String Buku18) {
+
+        for (int j = 0; j < listBk.length; j++) {
+
+            if (listBk[j].equals(Buku18)) {
+
+                return listBk[j];
+
+            }
+
+        }
+
+        return null;
+
+    }
+```
+```java
+System.out.println("=======================");
+
+        Buku18 dataBuku18 = data.findBuku(Integer.toString(cari));
+
+        dataBuku18.tampilDataBuku();
+```
 
 ## 6.3. Percobaan 2
 ### 6.3.1. Langkah-Langkah Percobaan
@@ -301,8 +325,29 @@
 3. Jika data Kode Buku yang dimasukkan tidak urut. Apakah program masih dapat berjalan? Mengapa demikian! Tunjukkan hasil screenshoot untuk bukti dengan kode Buku yang acak. Jelaskan Mengapa hal tersebut bisa terjadi? 
 4. Jika Kode Buku yang dimasukkan dari Kode Buku terbesar ke terkecil (missal : 20215, 20214, 20212, 20211, 20210) dan elemen yang dicari adalah 20210. Bagaimana hasil dari binary search? Apakah sesuai? Jika tidak sesuai maka ubahlah kode program binary seach agar hasilnya sesuai!
 ### Jawaban
-1. -
- 
+1. Divide berangsung pada bagian pembagian array menjadi sisi kiri dan kanan. Kemudian program akan melihat apakah bilangan yang dicari ada di sebelah kiri atau kanan, dan kemudian proses berlangsung terus menerus hingga bilangan ditemukan.
+```java
+int findBinarySearch(int cari, int left, int right){
+        int mid;
+        if (right >= left) {
+            mid = (left + right)/2;
+  
+
+            if (cari == listBk[mid].kodeBuku) {
+                return (mid);
+            }else if (listBk[mid].kodeBuku > cari){
+                return findBinarySearch(cari, left, mid-1);
+            }else if(listBk[mid].kodeBuku < cari) {
+                return findBinarySearch(cari, mid+1, right);
+            }
+        }
+        return -1;
+    }
+``` 
+
+2. Proses conquer berlangsung dengan memeriksa apakah nilai pada variabel mid kurang dari nilai yang dicari atau lebih dari. Jika kurang dari, maka array kiri akan dicari mid-nya. Jika lebih dari, maka array kanan akan dicari mid-nya. Antara kedua proses akan berlanjut dengan array-nya masing-masing.
+3. 
+
 ## 6.4. Percobaan 3
 ### 6.4.1. Langkah-Langkah Percobaan
 1. Buatlah Package baru didalam package P5 dengan nama MergeSortTest 
