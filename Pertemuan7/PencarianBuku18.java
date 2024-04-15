@@ -56,7 +56,16 @@ public class PencarianBuku18 {
     }
 
     int findBinarySearch(int cari, int left, int right){
-        
+        // sorting descending
+        for (int i = 1; i < listBk.length; i++) {
+            Buku18 temp = listBk[i];
+            int j = i;
+            while (j > 0 && listBk[j-1].kodeBuku > temp.kodeBuku) {
+                listBk[j] = listBk[j-1];
+                j--;
+            }
+            listBk[j] = temp;
+        }
 
         int mid;
         if (right >= left) {

@@ -346,7 +346,35 @@ int findBinarySearch(int cari, int left, int right){
 ``` 
 
 2. Proses conquer berlangsung dengan memeriksa apakah nilai pada variabel mid kurang dari nilai yang dicari atau lebih dari. Jika kurang dari, maka array kiri akan dicari mid-nya. Jika lebih dari, maka array kanan akan dicari mid-nya. Antara kedua proses akan berlanjut dengan array-nya masing-masing.
-3. 
+3. Algoritma yang asli berjalan dengan asumsi bahwa array telah diurutkan secara ascending. Kode program tidak bisa berjalan jika input kode buku berupa urutan array descending. Cara agar program dapat berjalan ialah dengan menambahkan sorting descending agar urutan array pasti descending.
+```java
+int findBinarySearch(int cari, int left, int right){
+        // sorting descending
+        for (int i = 1; i < listBk.length; i++) {
+            Buku18 temp = listBk[i];
+            int j = i;
+            while (j > 0 && listBk[j-1].kodeBuku > temp.kodeBuku) {
+                listBk[j] = listBk[j-1];
+                j--;
+            }
+            listBk[j] = temp;
+        }
+  
+        int mid;
+        if (right >= left) {
+            mid = (left + right)/2;
+  
+            if (cari == listBk[mid].kodeBuku) {
+                return (mid);
+            }else if (listBk[mid].kodeBuku > cari){
+                return findBinarySearch(cari, left, mid-1);
+            }else if(listBk[mid].kodeBuku < cari) {
+                return findBinarySearch(cari, mid+1, right);
+            }
+        }
+        return -1;
+    }
+```
 
 ## 6.4. Percobaan 3
 ### 6.4.1. Langkah-Langkah Percobaan
