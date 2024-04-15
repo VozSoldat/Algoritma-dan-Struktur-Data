@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "588fc5f1a8bd7a93",
@@ -149,7 +148,9 @@
   },
   "active": "cf99a2742dcdad93",
   "lastOpenFiles": [
-    "Pasted image 20240415140251.png",
+    "Pertemuan7/Pasted image 20240415140251.png",
+    "Pasted image 20240216084730.png",
+    "Pertemuan7/Laporan.md",
     "Pertemuan7/LatihanPraktik2/PencarianBuku18.java",
     "Pertemuan7/LatihanPraktik2/BukuMain.java",
     "Pertemuan7/LatihanPraktik2/Buku18.java",
@@ -161,7 +162,6 @@
     "Pertemuan7/MergeSortTest/MergeSortMain18.java",
     "Pertemuan7/MergeSortTest/MergeSorting18.java",
     "Pertemuan6/Laporan.md",
-    "Pertemuan7/Laporan.md",
     "Pertemuan5/Laporan.md",
     "Pertemuan5/Pasted image 20240319220648.png",
     "Pertemuan5/Pasted image 20240318105321.png",
@@ -169,11 +169,9 @@
     "Pertemuan3/Laporan.md",
     "Pertemuan3/Pasted image 20240226102409.png",
     "Pasted image 20240302071431.png",
-    "Pasted image 20240216084730.png",
     "Pertemuan3/Pasted image 20240226102313.png",
     "Pertemuan3/Pasted image 20240226101425.png",
     "Pertemuan3/Pasted image 20240226100111.png",
-    "Pertemuan3/Pasted image 20240226095931.png",
     "Pertemuan2/Laporan.md",
     "Pertemuan1/Laporan.md",
     "README.md",
