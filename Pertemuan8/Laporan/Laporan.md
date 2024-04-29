@@ -9,13 +9,112 @@
 1. -
 
 ### 2.2. Verifikasi Hasil Percobaan
--
+	Menu:
+	1. Tambah barang
+	2. Ambil barang
+	3. Tampilkan tumpukan barang
+	4. Keluar
+	Pilih operasi
+	1
+	Masukkan kode barang: 
+	21
+	Masukkan nama barang: 
+	Majalah
+	Masukkan kategori:
+	Buku
+	Barang Majalah berhasil ditambahkan ken Gudang.     
+	
+	Menu:
+	1. Tambah barang
+	2. Ambil barang
+	3. Tampilkan tumpukan barang
+	4. Keluar
+	Pilih operasi
+	1
+	Masukkan kode barang:
+	26
+	Masukkan nama barang:
+	Jaket
+	Masukkan kategori:
+	Pakaian
+	Barang Jaket berhasil ditambahkan ken Gudang.       
+	
+	Menu:
+	1. Tambah barang
+	2. Ambil barang
+	3. Tampilkan tumpukan barang
+	4. Keluar
+	Pilih operasi
+	2
+	Barang Jaket diambil dari Gudang.
+	
+	Menu:
+	1. Tambah barang
+	2. Ambil barang
+	3. Tampilkan tumpukan barang
+	4. Keluar
+	Pilih operasi
+	1
+	Masukkan kode barang:
+	33
+	Masukkan nama barang:
+	Pizza
+	Masukkan kategori:
+	Makanan
+	Barang Pizza berhasil ditambahkan ken Gudang.       
+	
+	Menu:
+	1. Tambah barang
+	2. Ambil barang
+	3. Tampilkan tumpukan barang
+	4. Keluar
+	Pilih operasi
+	3
+	Rincian tumpukan barang di Gudang:
+	Kode 33: Pizza (Kategori Makanan)
+	Kode 21: Majalah (Kategori Buku)
 
 ### 2.3. Pertanyaan
-1. -
+1. Lakukan perbaikan pada kode program, sehingga keluaran yang dihasilkan sama dengan verifikasi hasil percobaan! Bagian mana saja yang perlu diperbaiki? 
+2. Berapa banyak data barang yang dapat ditampung di dalam tumpukan? Tunjukkan potongan kode programnya! 
+3. Mengapa perlu pengecekan kondisi !cekKosong() pada method tampilkanBarang? Kalau kondisi tersebut dihapus, apa dampaknya?
+4. Modifikasi kode program pada class Utama sehingga pengguna juga dapat memilih operasi lihat barang teratas, serta dapat secara bebas menentukan kapasitas gudang!
+5. Commit dan push kode program ke Github
 
 ### Jawaban
-1. 
+1. Perbaikan perlu dilakukan pada bagian loop pada method `tampilkanBarang()`.
+2. Kapasitas maksimum stack ini ialah sebagaimana kode di bawah.
+```java
+ public Gudang18(int kapasitas){
+
+        size = kapasitas;
+
+        tumpukan = new Barang18[size];
+
+        top=-1;
+        }
+```
+Kapasitas tumpukan adalah 7, diketahui dari kode program di bawah.
+```java
+public static void main(String[] args) {
+
+        Gudang18 gudang = new Gudang18(7);
+
+        Scanner scanner = new Scanner(System.in);
+```
+3. `!cekKosong()` digunakan agar method `tampilkanBarang()` dapat menampilkan pesan "tumpukan kosong". Jika `!cekKosong()` dihilangkan, maka tidak terjadi apa-apa.
+#
+	Menu:
+	1. Tambah barang
+	2. Ambil barang
+	3. Tampilkan tumpukan barang
+	4. Keluar
+	Pilih operasi
+	3
+	Rincian tumpukan barang di Gudang:
+	
+
+4. 
 
 ## 3. Percobaan 2
 ### 3.1. Langkah-Langkah Percobaan

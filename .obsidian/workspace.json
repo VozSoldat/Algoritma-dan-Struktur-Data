@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pertemuan8/Laporan.md",
+                "file": "Pertemuan8/Laporan/Laporan.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pertemuan8/Laporan.md",
+                "file": "Pertemuan8/Laporan/Laporan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pertemuan8/Laporan.md",
+                "file": "Pertemuan8/Laporan/Laporan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pertemuan8/Laporan.md"
+                "file": "Pertemuan8/Laporan/Laporan.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "cf99a2742dcdad93",
   "lastOpenFiles": [
+    "Pertemuan8/Laporan",
     "Pertemuan7/Laporan.md",
-    "Pertemuan8/Laporan.md",
+    "Pertemuan8/Laporan/Laporan.md",
     "Pertemuan7/Pasted image 20240415140251.png",
     "Pasted image 20240216084730.png",
     "Pertemuan7/LatihanPraktik2/PencarianBuku18.java",
