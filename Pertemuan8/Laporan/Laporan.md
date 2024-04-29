@@ -114,177 +114,134 @@ public static void main(String[] args) {
 	Rincian tumpukan barang di Gudang:
 	
 
-4. 
+4. Kapasitas:
+```java
+System.out.print("Masukkan kapasitas gudang: ");
+
+        int kapasitas = scanner.nextInt();
+
+        Gudang18 gudang = new Gudang18(kapasitas);
+```
+
+Lihat barang teratas:
+```java
+            switch (pilihan) {
+
+                case 1:
+
+                    System.out.println("Masukkan kode barang: ");
+
+                    int kode = scanner.nextInt();
+
+                    scanner.nextLine();
+
+                    System.out.println("Masukkan nama barang: ");
+
+                    String nama = scanner.nextLine();
+
+                    System.out.println("Masukkan kategori: ");
+
+                    String kategori = scanner.nextLine();
+
+                    Barang18 barangBaru = new Barang18(kode, nama, kategori);
+
+                    gudang.tambahBarang(barangBaru);
+
+                    break;
+
+                case 2:
+
+                    gudang.ambilBarang();
+
+                    break;
+
+                case 3:
+
+                    gudang.tampilkanBarang();
+
+                    break;
+
+                case 4:
+
+                    gudang.lihatBarangTeratas();
+
+                    break;
+
+                case 5:
+
+                    break;
+
+                default:
+
+                    System.out.println("Pilihan tidak valid. Silakan coba lagi.");
+
+            }
+```
 
 ## 3. Percobaan 2
 ### 3.1. Langkah-Langkah Percobaan
 1. -
 ### 3.2. Verifikasi Hasil Percobaan
-	-----------------------------
-	Masukkan data Buku secara Urut dari KodeBuku Terkecil :
-	------------------------
-	Kode buku       : 111
-	Judul buku       : Algoritma
-	Tahun Terbit     : 2019
-	Pengarang        : Wahyuni
-	Stock    : 5
-	------------------------
-	Kode buku       : 123
-	Judul buku       : Big Data
-	Tahun Terbit     : 2020
-	Pengarang        : Susilo
-	Stock    : 3
-	------------------------
-	Kode buku       : 125
-	Judul buku       : Desain UI
-	Tahun Terbit     : 2021
-	Pengarang        : Supriadi
-	Stock    : 3
-	------------------------
-	Kode buku       : 126
-	Judul buku       : Web Programming
-	Tahun Terbit     : 2022
-	Pengarang        : Pustaka Adi
-	Stock    : 2
-	------------------------
-	Kode buku       : 127
-	Judul buku       : Etika Mahasiswa
-	Tahun Terbit     : 2023
-	Pengarang        : Darmawan Adi
-	Stock    : 2
-	--------------------------------
-	Data keseluruhan Buku :
-	==================================
-	Kode buku: 111
-	Judul buku: Algoritma
-	Tahun terbit: 2019
-	Pengarang: Wahyuni
-	Stock: 5
-	==================================
-	Kode buku: 123
-	Judul buku: Big Data
-	Tahun terbit: 2020
-	Pengarang: Susilo
-	Stock: 3
-	==================================
-	Kode buku: 125
-	Judul buku: Desain UI
-	Tahun terbit: 2021
-	Pengarang: Supriadi
-	Stock: 3
-	==================================
-	Kode buku: 126
-	Judul buku: Web Programming
-	Tahun terbit: 2022
-	Pengarang: Pustaka Adi
-	Stock: 2
-	==================================
-	Kode buku: 127
-	Judul buku: Etika Mahasiswa
-	Tahun terbit: 2023
-	Pengarang: Darmawan Adi
-	Stock: 2
-	_____________________________
-	____________________________
-	Pencarian Data :
-	Masukkan kode buku yang dicari:
-	Kode buku :
-	126
-	Menggunakan sequential search
-	data : 126 ditemukan pada indeks 3
-	Kode buku        : 126
-	Judul    : Web Programming
-	Tahun terbit     : 2022
-	Pengarang        : Pustaka Adi
-	Stock    : 2
-	=======================
-	menggunakan binary search
-	data : 126 ditemukan pada indeks 3
-	Kode buku        : 126
-	Judul    : Web Programming
-	Tahun terbit     : 2022
-	Pengarang        : Pustaka Adi
-	Stock    : 2
+	Masukkan kapasitas gudang: 7
+	
+	Menu:
+	1. Tambah barang
+	2. Ambil barang
+	3. Tampilkan tumpukan barang
+	4. Lihat barang teratas.
+	5. Keluar
+	Pilih operasi
+	1
+	Masukkan kode barang: 
+	13
+	Masukkan nama barang:
+	Setrika
+	Masukkan kategori:
+	Elektronik
+	Barang Setrika berhasil ditambahkan ken Gudang.    
+	
+	Menu:
+	1. Tambah barang
+	2. Ambil barang
+	3. Tampilkan tumpukan barang
+	4. Lihat barang teratas.
+	5. Keluar
+	Pilih operasi
+	2
+	Barang Setrika diambil dari Gudang.
+	Kode unik dalam biner: 1101
+	
+	Menu:
+	1. Tambah barang
+	2. Ambil barang
+	3. Tampilkan tumpukan barang
+	4. Lihat barang teratas.
+	5. Keluar
+	Pilih operasi
 
 ### 3.3. Pertanyaan
-1. Tunjukkan pada kode program yang mana proses divide dijalankan! 
-2. Tunjukkan pada kode program yang mana proses conquer dijalankan! 
-3. Jika data Kode Buku yang dimasukkan tidak urut. Apakah program masih dapat berjalan? Mengapa demikian! Tunjukkan hasil screenshoot untuk bukti dengan kode Buku yang acak. Jelaskan Mengapa hal tersebut bisa terjadi? 
-4. Jika Kode Buku yang dimasukkan dari Kode Buku terbesar ke terkecil (missal : 20215, 20214, 20212, 20211, 20210) dan elemen yang dicari adalah 20210. Bagaimana hasil dari binary search? Apakah sesuai? Jika tidak sesuai maka ubahlah kode program binary seach agar hasilnya sesuai!
+1. Pada method konversiDesimalKeBiner, ubah kondisi perulangan menjadi while (kode != 0), bagaimana hasilnya? Jelaskan alasannya!
+2. Jelaskan alur kerja dari method konversiDesimalKeBiner!
 ### Jawaban
-1. Divide berangsung pada bagian pembagian array menjadi sisi kiri dan kanan. Kemudian program akan melihat apakah bilangan yang dicari ada di sebelah kiri atau kanan, dan kemudian proses berlangsung terus menerus hingga bilangan ditemukan.
-```java
-int findBinarySearch(int cari, int left, int right){
-        int mid;
-        if (right >= left) {
-            mid = (left + right)/2;
-  
-
-            if (cari == listBk[mid].kodeBuku) {
-                return (mid);
-            }else if (listBk[mid].kodeBuku > cari){
-                return findBinarySearch(cari, left, mid-1);
-            }else if(listBk[mid].kodeBuku < cari) {
-                return findBinarySearch(cari, mid+1, right);
-            }
-        }
-        return -1;
-    }
-``` 
-
-2. Proses conquer berlangsung dengan memeriksa apakah nilai pada variabel mid kurang dari nilai yang dicari atau lebih dari. Jika kurang dari, maka array kiri akan dicari mid-nya. Jika lebih dari, maka array kanan akan dicari mid-nya. Antara kedua proses akan berlanjut dengan array-nya masing-masing.
-3. Program tidak dapat berjalan.
-![](Pasted%20image%2020240415140251.png)
-Hal tersebut karena cara kerja binary search yang membutuhkan urutan array yang terurut. Algoritma binary search membagi array menjadi bagian kanan dan kiri, kemudian antara kedua array akan dipilih mana yang akan dikerjakan berdasarkan perbandingan antara bilangan yang dicari dan bilangan variabel mid.
-
-5. Algoritma yang asli berjalan dengan asumsi bahwa array telah diurutkan secara ascending. Kode program tidak bisa berjalan jika input kode buku berupa urutan array descending. Cara agar program dapat berjalan ialah dengan menambahkan sorting descending agar urutan array pasti descending.
-```java
-int findBinarySearch(int cari, int left, int right){
-        // sorting descending
-        for (int i = 1; i < listBk.length; i++) {
-            Buku18 temp = listBk[i];
-            int j = i;
-            while (j > 0 && listBk[j-1].kodeBuku > temp.kodeBuku) {
-                listBk[j] = listBk[j-1];
-                j--;
-            }
-            listBk[j] = temp;
-        }
-  
-        int mid;
-        if (right >= left) {
-            mid = (left + right)/2;
-  
-            if (cari == listBk[mid].kodeBuku) {
-                return (mid);
-            }else if (listBk[mid].kodeBuku > cari){
-                return findBinarySearch(cari, left, mid-1);
-            }else if(listBk[mid].kodeBuku < cari) {
-                return findBinarySearch(cari, mid+1, right);
-            }
-        }
-        return -1;
-    }
-```
+1.  Program masih dapat berjalan karena nilai dari kode barang yang dihapus seharusnya bernilai negatif. Jadi jika memakai kode > 0,  output dari kode uniknya null, dan jika memakai kode kode != 0, maka output dari kode uniknya bernilai negatif.
+2. Konversi dilakukan dengan cara membagi kode dengan 2 dan memasukkan sisa pembagian ke dalam stack. 13 dibagi 2 = 6 sisa 1. 6 dibagi 2 = 3 sisa 0. 3 dibagi 2 = 1 sisa 1. 1 dibagi 2 = 0 sisa 1. Terdapat di dalam stack {1, 1, 0, 1}. Kemudian semua elemen dalam stack dimasukkan ke dalam String biner.
 
 ## 4. Percobaan 3
 ### 4.1. Langkah-Langkah Percobaan
-1. Buatlah Package baru didalam package P5 dengan nama MergeSortTest 
-2. Tambahkan class MergeSortingNoAbsen pada package tersebut 
-3. Pada class MergeSortingNoAbsen buatlah method mergeSort yang menerima parameter data array yang akan diurutkan 
-4. Buatlah method merge untuk melakukan proses penggabungan data dari bagian kiri dan kanan.
-5. Implementasikan proses merge sebagai berikut. 
-6. Buatlah method sort 
-7. Implementasikan kode berikut pada method sort 
-8. Pada method mergeSort, panggil method sort dengan parameter data yang ingin diurutkan serta range data awal sampai dengan akhir. 
-9. Tambahkan method printArray
-10. Sebagai langkah terakhir, deklarasikan data yang akan diurutkan kemudian panggil proses sorting pada class MergeSortMainNoAbsen. Tambahkan fungsi main pada kelas tersebut, kemudian tuliskan kode berikut didalam fungsi main.
+1. -
 ### 4.2. Verifikasi Hasil Percobaan
-	sorting dengan merge sort
-	data awal
-	10 40 30 50 70 20 100 90 
-	data setelah diurutkan
-	10 20 30 40 50 70 90 100 
+	-
+
+### 4.3. Soal
+1. Pada method derajat, mengapa return value beberapa case bernilai sama? Apabila return value diubah dengan nilai berbeda-beda setiap case-nya, apa yang terjadi? 
+2. Jelaskan alur kerja method konversi! 
+3. Pada method konversi, apa fungsi dari potongan kode berikut?!
+[](Pasted%20image%2020240429110228.png)
+
+### Jawaban
+1. Beberapa return value bernilai sama karena beberapa operasi memiliki derajat yang sama. Eksponen (pangkat) adalah yang tertinggi (jika mengabaikan parentheses (kurung)), di bawahnya ada modulus, perkalian, dan pembagian, di bawahnya ada penjumlahan dan pengurangan. Jika return valuenya diubah menjadi nilai berbeda-beda, kedudukan dari setiap operator akan berbeda-beda yang dimana akan menimbulkan error dalam konversi postfixnya.
+2. Proses iterasi dilakukan melalui setiap karakter dalam ekspresi `Q`. Jika `c` adalah operand (bilangan), maka `karakter` tersebut ditambahkan ke string `P`. Jika `c` adalah tanda kurung buka `(`, maka tanda kurung tersebut dimasukkan ke dalam stack. Jika `c` adalah tanda kurung tutup `)`, maka dilakukan proses untuk mengeluarkan operator-operator dari stack dan menambahkannya ke dalam string `P` sampai ditemukan tanda kurung buka yang sesuai. Jika `c` adalah operator, maka dilakukan proses untuk memeriksa tingkat derajat operator pada puncak stack. Jika tingkat derajat operator pada stack lebih besar atau sama dengan operator saat ini, maka operator pada stack tersebut dikeluarkan dan ditambahkan ke dalam string `P`, kemudian operator saat ini dimasukkan ke dalam stack. Setelah iterasi selesai, jika masih ada operator tersisa di stack, mereka dikeluarkan dan ditambahkan ke dalam string `P`. Hasilnya disimpan ke dalam String P.
+3. Potongan kode tersebut maksudnya adalah `c` sama dengan karakter pada String Q indeks ke-i. Itu adalah cara pengecekan karakter pada setiap iterasi pada String Q. String Q adalah ekspresi matematika yang belum dikonversi.
 
 ## 5. Latihan Praktikum
 
