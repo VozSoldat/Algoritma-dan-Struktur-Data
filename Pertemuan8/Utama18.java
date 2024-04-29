@@ -14,7 +14,9 @@ public class Utama18 {
             System.out.println("2. Ambil barang");
             System.out.println("3. Tampilkan tumpukan barang");
             System.out.println("4. Lihat barang teratas.");
-            System.out.println("5. Keluar");
+            System.out.println("5. Lihat barang terbawah.");
+            System.out.println("6. Cari melalui kode");
+            System.out.println("7. Keluar");
             System.out.println("Pilih operasi");
             int pilihan = scanner.nextInt();
             scanner.nextLine();
@@ -40,10 +42,17 @@ public class Utama18 {
                     gudang.lihatBarangTeratas();
                     break;
                 case 5:
+                    gudang.lihatBarangTerbawah();
+                    break;
+                case 6:
+                    System.out.println("Nama barang: "+gudang.findSeqSearch()); 
+                    break;
+                case 7:
                     break;
                 default:
                     System.out.println("Pilihan tidak valid. Silakan coba lagi.");
             }
         }
+        
     }
 }

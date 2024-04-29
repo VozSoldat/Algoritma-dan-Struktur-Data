@@ -1,5 +1,7 @@
 package Pertemuan8;
 
+import java.util.Scanner;
+
 public class Gudang18 {
     Barang18[] tumpukan;
     int size;
@@ -79,4 +81,29 @@ public class Gudang18 {
         }
         return biner;
     }
+    public Barang18 lihatBarangTerbawah(){
+        if (!cekKosong()) {
+            Barang18 barangTerbawah = tumpukan[0];
+            System.out.println("Barang terbawah: "+barangTerbawah.nama);
+            return barangTerbawah;
+        }else{
+            System.out.println("Tumpukan barang kosong.");
+            return null;
+        }
+    }
+    public String findSeqSearch(){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan kode barang yang ingin dicari: ");
+        int cari = sc.nextInt();
+        int posisi = 0;
+            for (int j = 0; j < top; j++) {
+                if (tumpukan[j].kode == cari) {
+                    posisi = j;
+                    break;
+                }else{
+                    posisi = -1;
+                }
+            }
+            return tumpukan[posisi].nama;
+        }
 }
