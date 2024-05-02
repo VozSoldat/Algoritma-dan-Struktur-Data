@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pertemuan8/Laporan/Laporan.md",
+                "file": "Pertemuan10/Laporan/Laporan.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pertemuan8/Laporan/Laporan.md",
+                "file": "Pertemuan10/Laporan/Laporan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pertemuan8/Laporan/Laporan.md",
+                "file": "Pertemuan10/Laporan/Laporan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pertemuan8/Laporan/Laporan.md"
+                "file": "Pertemuan10/Laporan/Laporan.md"
               }
             }
           }
@@ -148,21 +148,24 @@
   },
   "active": "cf99a2742dcdad93",
   "lastOpenFiles": [
-    "Pertemuan8/Laporan/Pasted image 20240429110228.png",
+    "Pertemuan10/Praktikum1/QueueMain.java",
+    "Pertemuan10/Praktikum1/Queue.java",
+    "Pertemuan10/Praktikum1",
     "Pertemuan8/Laporan/Laporan.md",
+    "Pertemuan10/Laporan/Laporan.md",
+    "Pertemuan7/Laporan.md",
+    "Pertemuan7/Pasted image 20240415140251.png",
+    "Pertemuan10/Laporan/Laporan.md",
+    "Pertemuan10/Laporan",
+    "Pertemuan10",
+    "Pertemuan8/Laporan/Pasted image 20240429110228.png",
     "Pertemuan8/PostfixMain.java",
     "Pertemuan8/Postfix18.java",
     "Pertemuan8/StackKonversi.java",
     "Pertemuan8/Laporan",
-    "Pertemuan7/Laporan.md",
-    "Pertemuan7/Pasted image 20240415140251.png",
     "Pasted image 20240216084730.png",
     "Pertemuan7/LatihanPraktik2/PencarianBuku18.java",
     "Pertemuan7/LatihanPraktik2/BukuMain.java",
-    "Pertemuan7/LatihanPraktik2/Buku18.java",
-    "Pertemuan7/LatihanPraktik2",
-    "Pertemuan7/LatihanPraktik1/PencarianBuku18.java",
-    "Pertemuan7/LatihanPraktik1/BukuMain.java",
     "Pertemuan6/Laporan.md",
     "Pertemuan5/Laporan.md",
     "Pertemuan5/Pasted image 20240319220648.png",

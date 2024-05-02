@@ -1,4 +1,4 @@
-# 7. Searching
+# 7. Stack
 
 #### Muhammad Erril Putra Pratidina
 ##### Kelas TI-1H
@@ -246,5 +246,4 @@ Lihat barang teratas:
 ## 5. Latihan Praktikum
 
 ### Jawaban
-1. Hasil lihat `Pertemuan7\LatihanPraktik1`
-2. Hasil lihat `Pertemuan7\LatihanPraktik2`
+1. Method telah diimplementasikan.
