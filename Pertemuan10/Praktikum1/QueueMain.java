@@ -14,10 +14,46 @@ public class QueueMain {
 
     }
     public static void main(String[] args) {
-        System.out.println("Masukkan kapasitas Queue: ");
+        System.out.print("Masukkan kapasitas Queue: ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        Queue q = new Queue(n);
+        Queue Q = new Queue(n);
+
+        int pilih=-1;
+        do {
+            menu();
+            pilih = sc.nextInt();
+            switch (pilih) {
+                case 1:
+                    System.out.print("Masukkan data baru: ");
+                    int dataMasuk = sc.nextInt();
+                    Q.enqueue(dataMasuk);
+                    break;
+                
+                case 2:
+                    int dataKeluar = Q.dequeue();
+                    if (dataKeluar != 0) {
+                        System.out.print("Data yang dikeluarkan: "+dataKeluar);
+                        break;
+                    }
+
+                case 3:
+                    Q.print();
+                    break;
+
+                case 4:
+                    Q.peek();
+                    break;
+
+                case 5:
+                    Q.clear();
+                    break;
+            
+                default:
+                    break;
+            }
+        } while (pilih == 1 || pilih == 2|| pilih == 3 || pilih == 4 || pilih == 5);
+        
         
     }
 }

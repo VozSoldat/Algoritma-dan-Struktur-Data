@@ -9,13 +9,68 @@
 1. -
 
 ### 2.2. Verifikasi Hasil Percobaan
--
+	Masukkan kapasitas Queue: 4
+	Masukkan operasi yang diinginkan:
+	1. Enqueue
+	2. Dequeue
+	3. Print
+	4. Peek
+	5. Clear
+	-------------
+	1
+	Masukkan data baru: 15
+	Masukkan operasi yang diinginkan:
+	1. Enqueue
+	2. Dequeue
+	3. Print
+	4. Peek
+	5. Clear
+	-------------
+	1
+	Masukkan data baru: 31
+	Masukkan operasi yang diinginkan:
+	1. Enqueue
+	2. Dequeue
+	3. Print
+	4. Peek
+	5. Clear
+	-------------
+	4
+	Elemen terdepan: 15
+	Masukkan operasi yang diinginkan:
+	1. Enqueue
+	2. Dequeue
+	3. Print
+	4. Peek
+	5. Clear
+	-------------
+
+![](Pasted%20image%2020240506084504.png)
 
 ### 2.3. Pertanyaan
-1. -
+1. Pada konstruktor, mengapa nilai awal atribut front dan rear bernilai -1, sementara atribut size bernilai 0? 
+2. Pada method Enqueue, jelaskan maksud dan kegunaan dari potongan kode berikut! ![](Pasted%20image%2020240506084600.png)
+
+3. Pada method Dequeue, jelaskan maksud dan kegunaan dari potongan kode berikut! ![](Pasted%20image%2020240506084704.png)
+4. Pada method print, mengapa pada proses perulangan variabel i tidak dimulai dari 0 (int i=0), melainkan int i=front? 
+5. Perhatikan kembali method print, jelaskan maksud dari potongan kode berikut! ![](Pasted%20image%2020240506084728.png)
+6. Tunjukkan potongan kode program yang merupakan queue overflow! 
+7. Pada saat terjadi queue overflow dan queue underflow, program tersebut tetap dapat berjalan dan hanya menampilkan teks informasi. Lakukan modifikasi program sehingga pada saat terjadi queue overflow dan queue underflow, program dihentikan!
 
 ### Jawaban
-1. -
+1. Nilai awal front dan rear bernilai -1 karena peran front dan rear sebagai indeks. Untuk membuat indeks tidak menunjuk posisi manapun, maka ditulis bilangan -1 atau bilangan negatif lainnya. Hal tersebut karena 0 termasuk indeks. Attribute size bernilai 0 karena `size` akan dibandingkan dengan `max`, yang mana digunakan untuk menginstansiasi ukuran array. Ukuran array paling kecil adalah 1, sedangkan ukuran array = 0 berarti array tersebut tidak memiliki tempat elemen sama sekali. 
+2. Kegunaannya agar saat data paling belakang dari queue berada di indeks terakhir array lalu dimasukkan data baru, maka data tersebut akan menempati posisi indeks ke-0.
+3. Kegunaannya agar saat data paling depan dari queue berada di indeks terakhir array lalu dilakukan proses dequeue, maka data yang terambil adalah data pada index terakhir. Kemudian front akan bergesar pada index ke-0.
+4. Karena elemen pertama dari queue bukan lagi terletak pada indeks 0, tetapi pada attribute front. 
+5. Kode tersebut digunakan untuk kembali ke awal queue ketika method print sampai di akhir queue. Operasi ini akan mengembalikan i kembali ke awal antrian dengan cara menghitung modulus `i + 1` dengan `max`.
+6. Kode program:
+```java
+    if (isFull()) {
+        System.out.println("Queue sudah penuh");
+    }
+```
+
+7. 
 
 ## 3. Percobaan 2
 ### 3.1. Langkah-Langkah Percobaan
