@@ -90,7 +90,7 @@ public class SingleLinkedList {
             tmp = tmp.next;
             index++;
         }
-        if (tmp != null) {
+        if (tmp == null) {
             return 1;
         }else{
             return index;
@@ -112,7 +112,7 @@ public class SingleLinkedList {
 
         }else{
             Node temp = head;
-            while(temp.next != null){
+            while(temp.next.next != null){
                 temp = temp.next;
             }
             temp.next = null;

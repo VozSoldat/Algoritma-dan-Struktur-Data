@@ -10,6 +10,8 @@ public class Queue {
     int rear;
     int size;
     int max;
+    boolean isOverFlow = false;
+    boolean isUnderFlow = false;
 
     public Queue(int n){
         max = n;
@@ -61,6 +63,7 @@ public class Queue {
     public void enqueue(int dt){
         if (isFull()) {
             System.out.println("Queue sudah penuh");
+            isOverFlow = true;
         }else{
             if (isEmpty()) {
                 front = rear = 0;
@@ -79,6 +82,7 @@ public class Queue {
         int dt = 0;
         if (isEmpty()) {
             System.out.println("Queue masih kosong");
+            isUnderFlow = true;
         }else{
             dt = data[front];
             size--;

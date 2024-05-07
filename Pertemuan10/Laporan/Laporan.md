@@ -70,36 +70,190 @@
     }
 ```
 
-7. 
+7. Buat attribute baru isOverFlow dan isUnderFlow masing-masing pada bagian `enqueu()` dan `dequeue()`.
+```java
+    if (isFull()) {
+        System.out.println("Queue sudah penuh");
+        isOverflow = true;
+    }
+    ...
+    if(isEmpty()) {
+        System.out.println("Queue masih kosong");
+        isUnderflow = true;
+    }
+```
+
+Kemudian tulis break dengan kondisi isOverFlow dan isUnderFlow true pada bagian main.
+```java
+    if (Q.isOverflow == true || Q.isUnderflow == true) {
+        break;
+    }
+```
+
+#### Hasil
+- Queue UnderFlow ![](Pasted%20image%2020240506135550.png)
+- Queue OverFlow 
+#
+	Masukkan kapasitas Queue: 1
+	Masukkan operasi yang diinginkan:
+	1. Enqueue
+	2. Dequeue
+	3. Print
+	4. Peek
+	5. Clear
+	-------------
+	1
+	Masukkan data baru: 33
+	Masukkan operasi yang diinginkan:
+	1. Enqueue
+	2. Dequeue
+	3. Print
+	4. Peek
+	5. Clear
+	-------------
+	1
+	Masukkan data baru: 55
+	Queue sudah penuh
 
 ## 3. Percobaan 2
 ### 3.1. Langkah-Langkah Percobaan
 1. -
 ### 3.2. Verifikasi Hasil Percobaan
--
+	Masukkan kapasitasa queue: 8
+	Pilih menu:
+	1. Antrian baru
+	2. Antrian keluar
+	3, Cek antrian terdepan
+	4. Cek semua antrian
+	---------------------
+	1
+	No. Rekening: 12345
+	Nama: Dewi
+	Alamat: Malang 
+	Umur: 23
+	Saldo: 1300000
+	Pilih menu:
+	1. Antrian baru
+	2. Antrian keluar
+	3, Cek antrian terdepan
+	4. Cek semua antrian
+	---------------------
+	1
+	No. Rekening: 32940
+	Nama: Susan
+	Alamat: Surabaya
+	Umur: 39
+	Saldo: 42000000
+	Pilih menu:
+	1. Antrian baru
+	2. Antrian keluar
+	3, Cek antrian terdepan
+	4. Cek semua antrian
+	---------------------
+	4
+	12345 Dewi Malang 23 1300000.0
+	32940 Susan Surabaya 39 4.2E7
+	Jumlah elemen = 2
+	Pilih menu:
+	1. Antrian baru
+	2. Antrian keluar
+	3, Cek antrian terdepan
+	4. Cek semua antrian
+	---------------------
+
 
 ### 3.3. Pertanyaan
-1. -
-### Jawaban
-1. -
-## 4. Percobaan 3
-### 4.1. Langkah-Langkah Percobaan
-1. -
-### 4.2. Verifikasi Hasil Percobaan
-	-
+1. Pada class QueueMain, jelaskan fungsi IF pada potongan kode program berikut ![](Pasted%20image%2020240506134230.png)
 
-### 4.3. Soal
-1. Pada method derajat, mengapa return value beberapa case bernilai sama? Apabila return value diubah dengan nilai berbeda-beda setiap case-nya, apa yang terjadi? 
-2. Jelaskan alur kerja method konversi! 
-3. Pada method konversi, apa fungsi dari potongan kode berikut?!
-[](Pasted%20image%2020240429110228.png)
+2. Lakukan modifikasi program dengan menambahkan method baru bernama peekRear pada class Queue yang digunakan untuk mengecek antrian yang berada di posisi belakang! Tambahkan pula daftar menu 5. Cek Antrian paling belakang pada class QueueMain sehingga method peekRear dapat dipanggil!
 
 ### Jawaban
-1. Beberapa return value bernilai sama karena beberapa operasi memiliki derajat yang sama. Eksponen (pangkat) adalah yang tertinggi (jika mengabaikan parentheses (kurung)), di bawahnya ada modulus, perkalian, dan pembagian, di bawahnya ada penjumlahan dan pengurangan. Jika return valuenya diubah menjadi nilai berbeda-beda, kedudukan dari setiap operator akan berbeda-beda yang dimana akan menimbulkan error dalam konversi postfixnya.
-2. Proses iterasi dilakukan melalui setiap karakter dalam ekspresi `Q`. Jika `c` adalah operand (bilangan), maka `karakter` tersebut ditambahkan ke string `P`. Jika `c` adalah tanda kurung buka `(`, maka tanda kurung tersebut dimasukkan ke dalam stack. Jika `c` adalah tanda kurung tutup `)`, maka dilakukan proses untuk mengeluarkan operator-operator dari stack dan menambahkannya ke dalam string `P` sampai ditemukan tanda kurung buka yang sesuai. Jika `c` adalah operator, maka dilakukan proses untuk memeriksa tingkat derajat operator pada puncak stack. Jika tingkat derajat operator pada stack lebih besar atau sama dengan operator saat ini, maka operator pada stack tersebut dikeluarkan dan ditambahkan ke dalam string `P`, kemudian operator saat ini dimasukkan ke dalam stack. Setelah iterasi selesai, jika masih ada operator tersisa di stack, mereka dikeluarkan dan ditambahkan ke dalam string `P`. Hasilnya disimpan ke dalam String P.
-3. Potongan kode tersebut maksudnya adalah `c` sama dengan karakter pada String Q indeks ke-i. Itu adalah cara pengecekan karakter pada setiap iterasi pada String Q. String Q adalah ekspresi matematika yang belum dikonversi.
+1. Kode tersebut digunakan untuk memastikan bahwa input tidak kosong, 0, atau null.
+2. Kode program `peakRear()`:
+```java
+public void peekRear(){
 
-## 5. Latihan Praktikum
+        if (!isEmpty()) {
+
+            System.out.println("Antrian terakhir: "+ data[rear].norek);
+
+        }else{
+
+            System.out.println("Antrian masih kosong");
+
+        }
+
+    }
+```
+
+Modifikasi menu:
+```java
+case 5:
+                    antri.peekRear();
+                    break;
+```
+
+## 4. Latihan Praktikum
 
 ### Jawaban
-1. Method telah diimplementasikan.
+Hasil kode lihat di `Pertemuan10\Tugas`.
+Hasil:
+```
+Masukkan kapasitas queue: 10
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Print
+5. Peek rear
+6. Daftar pembeli
+7. Peek position
+-------------------
+1
+Masukkan nama: John
+Masukkan no. HP: 011
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Print
+5. Peek rear
+6. Daftar pembeli
+7. Peek position
+-------------------
+1
+Masukkan nama: Arhtur
+Masukkan no. HP: 033
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Print
+5. Peek rear
+6. Daftar pembeli
+7. Peek position
+-------------------
+1
+Masukkan nama: Kirby 
+Masukkan no. HP: 098
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Print
+5. Peek rear
+6. Daftar pembeli
+7. Peek position
+-------------------
+6
+John 11
+Arhtur 33
+Kirby 98
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Print
+5. Peek rear
+6. Daftar pembeli
+7. Peek position
+-------------------
+7
+Masukkan nama: kirby
+Elemen di posisi ke-3
+```

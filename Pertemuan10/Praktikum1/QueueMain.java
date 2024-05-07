@@ -52,6 +52,10 @@ public class QueueMain {
                 default:
                     break;
             }
+            if (Q.isOverFlow == true || Q.isUnderFlow == true) {
+                break;
+            }
+                
         } while (pilih == 1 || pilih == 2|| pilih == 3 || pilih == 4 || pilih == 5);
         
         

@@ -45,8 +45,9 @@ public class Queue {
             int i = front;
             while (i != rear) {
                 System.out.println(data[i].norek+" "+data[i].nama+" "+data[i].alamat+" "+data[i].umur+" "+data[i].saldo);
+                i = (i +1 )%max;
         }
-        System.out.println(data[i]+" ");
+        System.out.println(data[i].norek + " " + data[i].nama + " " + data[i].alamat + " " + data[i].umur + " " + data[i].saldo);
         System.out.println("Jumlah elemen = "+size);}
     }
     public void clear(){
@@ -93,6 +94,13 @@ public class Queue {
             }
         }
         return dt;
+    }
+    public void peekRear(){
+        if (!isEmpty()) {
+            System.out.println("Antrian terakhir: "+ data[rear].norek);
+        }else{
+            System.out.println("Antrian masih kosong");
+        }
     }
     
 }

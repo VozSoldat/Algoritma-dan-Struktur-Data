@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pertemuan11/Laporan/Laporan.md",
+                "file": "Pertemuan10/Laporan/Laporan.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pertemuan11/Laporan/Laporan.md",
+                "file": "Pertemuan10/Laporan/Laporan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pertemuan11/Laporan/Laporan.md",
+                "file": "Pertemuan10/Laporan/Laporan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pertemuan11/Laporan/Laporan.md"
+                "file": "Pertemuan10/Laporan/Laporan.md"
               }
             }
           }
@@ -146,12 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf99a2742dcdad93",
+  "active": "1f32b64a7d53bb72",
   "lastOpenFiles": [
-    "Pertemuan11/Laporan/Pasted image 20240506102814.png",
+    "Pertemuan10/Tugas/Main.java",
+    "Pertemuan10/Tugas/Queue.java",
+    "Pertemuan10/Tugas/Pembeli.java",
+    "Pertemuan10/Tugas",
     "Pertemuan11/Laporan/Laporan.md",
-    "Pertemuan11/Laporan/Pasted image 20240506102913.png",
+    "Pertemuan10/Laporan/Laporan.md",
+    "Pertemuan8/Laporan/Laporan.md",
+    "Pertemuan10/Laporan/Pasted image 20240506135550.png",
     "Pasted image 20240219112153.png",
+    "Pasted image 20240506135545.png",
+    "Pertemuan10/Laporan/Pasted image 20240506134230.png",
+    "Pertemuan11/Laporan/Pasted image 20240506125849.png",
+    "Pertemuan11/Laporan/Pasted image 20240506124901.png",
+    "Pertemuan11/Laporan/Pasted image 20240506123019.png",
+    "Pertemuan11/Laporan/Pasted image 20240506102814.png",
+    "Pertemuan11/Laporan/Pasted image 20240506102913.png",
     "Pertemuan10/Praktikum2/QueueMain.java",
     "Pertemuan10/Praktikum2/Queue.java",
     "Pertemuan10/Praktikum2/Nasabah.java",
@@ -159,19 +171,8 @@
     "Pertemuan11/SLLMain.java",
     "Pertemuan11/SingleLinkedList.java",
     "Pertemuan11/Node.java",
-    "Pertemuan10/Laporan/Laporan.md",
-    "Pertemuan8/Laporan/Laporan.md",
-    "Pertemuan11/Laporan",
-    "Pertemuan11",
     "Pertemuan10/Laporan/Pasted image 20240506084728.png",
-    "Pertemuan10/Laporan/Pasted image 20240506084704.png",
-    "Pertemuan10/Laporan/Pasted image 20240506084600.png",
-    "Pertemuan10/Laporan/Pasted image 20240506084504.png",
-    "Pertemuan10/Praktikum1/QueueMain.java",
     "Pertemuan7/Laporan.md",
-    "Pertemuan7/Pasted image 20240415140251.png",
-    "Pertemuan8/Laporan/Pasted image 20240429110228.png",
-    "Pasted image 20240216084730.png",
     "Pertemuan6/Laporan.md",
     "Pertemuan5/Laporan.md",
     "Pertemuan3/Laporan.md",
