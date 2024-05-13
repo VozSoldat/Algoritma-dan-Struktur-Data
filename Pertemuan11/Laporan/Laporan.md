@@ -38,4 +38,5 @@
 ## 3. Latihan Praktikum
 
 ### Jawaban
-1. 
+1. ![](Pasted%20image%2020240513080802.png)
+2. ![](Pasted%20image%2020240513080846.png)
