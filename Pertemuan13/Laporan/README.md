@@ -34,7 +34,8 @@ Pada percobaan 1 ini akan dibuat class Node dan class DoubleLinkedLists yang did
 2. Buat paket baru dengan nama **doublelinkedlists**
 3. Buat class di dalam paket tersebut dengan nama **Node** 
 ![](Pasted%20image%2020240519084009.png)
-4.  Di dalam class tersebut, deklarasikan atribut sesuai dengan diagram class di atas. ![](Pasted%20image%2020240519084104.png)
+4.  Di dalam class tersebut, deklarasikan atribut sesuai dengan diagram class di atas. 
+	![](Pasted%20image%2020240519084104.png)
 5. Selanjutnya tambahkan konstruktor default pada class Node sesuai diagram di atas. ![](Pasted%20image%2020240519084136.png)
 6. Buatlah sebuah class baru bernama DoubleLinkedLists pada package yang sama dengan node seperti gambar berikut: ![](Pasted%20image%2020240519084212.png)
 7. Pada class DoubleLinkedLists tersebut, deklarasikan atribut sesuai dengan diagram class di atas. ![](Pasted%20image%2020240519084224.png)
