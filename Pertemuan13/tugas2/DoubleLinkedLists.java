@@ -36,33 +36,42 @@ public class DoubleLinkedLists {
             size++;
         }
     }
-    public void add(Film item, int index)throws Exception{
-        if (isEmpty()) {
-            addFirst(item);
-        }else if (index < 0 || index > size) {
+    public void add(Film item, int index) throws Exception {
+        if (index < 0 || index > size) {
             throw new Exception("Nilai indeks di luar batas");
-        }else{
+        }
+        
+        if (index == 0) {
+            addFirst(item);
+            return;
+        } else if (index == size) {
+            addLast(item);
+            return;
+        } else {
             Node current = head;
             int i = 0;
             while (i < index) {
+                if (current == null) {
+                    throw new Exception("Unexpected null node at index " + i);
+                }
                 current = current.next;
                 i++;
             }
-            if (current.prev == null) {
-                Node newNode = new Node(null, item, current);
-                current.prev = newNode;
-                head = newNode;
-            }else{
-                Node newNode = new Node(current.prev, item, current);
-                newNode.prev = current.prev;
-                newNode.next = current;
+            
+            Node newNode = new Node(current.prev, item, current);
+            
+            if (current.prev != null) {
                 current.prev.next = newNode;
-                current.prev = newNode;
             }
+            current.prev = newNode;
+            
+            size++;
         }
-        size++;
     }
-    public int size(){
+    
+    
+    
+        public int size(){
         return size;
     }
     public void clear(){

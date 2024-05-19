@@ -35,7 +35,7 @@ public class DoubleLinkedListsMain {
                     int tempId = sc.nextInt();
                     sc.nextLine();
                     System.out.println("Judul Film: ");
-                    String tempJudul = sc.next();
+                    String tempJudul = sc.nextLine();
                     System.out.println("Rating Film: ");
                     float tempRate = sc.nextFloat();
                     Film tempFilm = new Film(tempId, tempJudul, tempRate);
@@ -48,11 +48,12 @@ public class DoubleLinkedListsMain {
                     int tempId2 = sc.nextInt();
                     sc.nextLine();
                     System.out.println("Judul Film: ");
-                    String tempJudul2 = sc.next();
+                    String tempJudul2 = sc.nextLine();
                     System.out.println("Rating Film: ");
                     float tempRate2 = sc.nextFloat();
                     Film tempFilm2 = new Film(tempId2, tempJudul2, tempRate2);
                     dll.addLast(tempFilm2);
+                    System.out.println("size: "+dll.size);
                     break;
 
                 case 3:
@@ -62,7 +63,7 @@ public class DoubleLinkedListsMain {
                     int tempId3 = sc.nextInt();
                     sc.nextLine();
                     System.out.println("Judul Film: ");
-                    String tempJudul3 = sc.next();
+                    String tempJudul3 = sc.nextLine();
                     System.out.println("Rating Film: ");
                     float tempRate3 = sc.nextFloat();
                     Film tempFilm3 = new Film(tempId3, tempJudul3, tempRate3);

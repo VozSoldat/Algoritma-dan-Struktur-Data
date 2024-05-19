@@ -263,4 +263,389 @@ for (int i = 0; i < index-1; i++) {
 		- [DoubleLinkedListMain.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan13/tugas1/DoubleLinkedListsMain.java)
 		- [Node.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan13/tugas1/Node.java)
 		- [Pengantri.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan13/tugas1/Pengantri.java)
-1. !
+		
+	1. Hasil run
+```
++++++++++++++++++++++++++++++
+PENGANTRI VAKSIN EXTRAVAGANZA
++++++++++++++++++++++++++++++
+1. Tambah data penerima vaksin
+2. Hapus data penerima vaksin
+3. Daftar oenerima vaksin
+0. Keluar
+++++++++++++++++++++++++++++
+1
+----------------------
+Masukkan data penerima vaksin
+----------------------
+Nomor antrian: 123
+Nama penerima: Joko
++++++++++++++++++++++++++++++
+PENGANTRI VAKSIN EXTRAVAGANZA
++++++++++++++++++++++++++++++
+1. Tambah data penerima vaksin
+2. Hapus data penerima vaksin
+3. Daftar oenerima vaksin
+0. Keluar
+++++++++++++++++++++++++++++
+1
+----------------------
+Masukkan data penerima vaksin
+----------------------
+Nomor antrian: 145
+Nama penerima: Mely
++++++++++++++++++++++++++++++
+PENGANTRI VAKSIN EXTRAVAGANZA
++++++++++++++++++++++++++++++
+1. Tambah data penerima vaksin
+2. Hapus data penerima vaksin
+3. Daftar oenerima vaksin
+0. Keluar
+++++++++++++++++++++++++++++
+1
+----------------------
+Masukkan data penerima vaksin
+----------------------
+Nomor antrian: 155
+Nama penerima: Johan
++++++++++++++++++++++++++++++
+PENGANTRI VAKSIN EXTRAVAGANZA
++++++++++++++++++++++++++++++
+1. Tambah data penerima vaksin
+2. Hapus data penerima vaksin
+3. Daftar oenerima vaksin
+0. Keluar
+++++++++++++++++++++++++++++
+1
+----------------------
+Masukkan data penerima vaksin
+----------------------
+Nomor antrian: 188
+Nama penerima: Rosi
++++++++++++++++++++++++++++++
+PENGANTRI VAKSIN EXTRAVAGANZA
++++++++++++++++++++++++++++++
+1. Tambah data penerima vaksin
+2. Hapus data penerima vaksin
+3. Daftar oenerima vaksin
+0. Keluar
+++++++++++++++++++++++++++++
+3
+------------------------------
+Daftar Pengantri Vaksin
+------------------------------
+|No.    |Nama   |
+|123    |Joko   |
+|145    |Mely   |
+|155    |Johan  |
+|188    |Rosi   |
+Sisa Antrian: 4
++++++++++++++++++++++++++++++
+PENGANTRI VAKSIN EXTRAVAGANZA
++++++++++++++++++++++++++++++
+1. Tambah data penerima vaksin
+2. Hapus data penerima vaksin
+3. Daftar oenerima vaksin
+0. Keluar
+++++++++++++++++++++++++++++
+2
++++++++++++++++++++++++++
+Joko telah divaksinasi.
+------------------------------
+Daftar Pengantri Vaksin
+------------------------------
+|No.    |Nama   |
+|145    |Mely   |
+|155    |Johan  |
+|188    |Rosi   |
+Sisa Antrian: 3
++++++++++++++++++++++++++++++
+PENGANTRI VAKSIN EXTRAVAGANZA
++++++++++++++++++++++++++++++
+1. Tambah data penerima vaksin
+2. Hapus data penerima vaksin
+3. Daftar oenerima vaksin
+0. Keluar
+++++++++++++++++++++++++++++
+
+```
+
+1. Tugas 2
+	1. Kode program
+		- [DoubleLinkedList.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan13/tugas2/DoubleLinkedLists.java)
+		- [DoubleLinkedListMain.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan13/tugas2/DoubleLinkedListsMain.java)
+		- [Film.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan13/tugas2/Film.java)
+		- [Node.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan13/tugas2/Node.java)
+	2. Hasil run
+```
+==============================
+DATA FILM LAYAR LEBAR
+==============================
+1. Tambah data awal
+2. Tambah data akhir
+3. Tambah data indeks tertentu
+4. Hapus data pertama
+5. Hapus data terakhir
+6. Hapus data indeks tertentu
+7. Cetak
+8. Cari ID film
+9. Urut data rating-DESC
+0. Keluar
+==============================
+1
+Masukkan data film posisi awal
+ID Film:
+1222
+Judul Film:
+Spider-Man: No Way Home
+Rating Film:
+8,7
+==============================
+DATA FILM LAYAR LEBAR
+==============================
+1. Tambah data awal
+2. Tambah data akhir
+3. Tambah data indeks tertentu
+4. Hapus data pertama
+5. Hapus data terakhir
+6. Hapus data indeks tertentu
+7. Cetak
+8. Cari ID film
+9. Urut data rating-DESC
+0. Keluar
+==============================
+2
+Masukkan data film posisi akhir
+ID Film:
+1765
+Judul Film:
+Skyfall
+Rating Film:
+7,8
+size: 2
+==============================
+DATA FILM LAYAR LEBAR
+==============================
+1. Tambah data awal
+2. Tambah data akhir
+3. Tambah data indeks tertentu
+4. Hapus data pertama
+5. Hapus data terakhir
+6. Hapus data indeks tertentu
+7. Cetak
+8. Cari ID film
+9. Urut data rating-DESC
+0. Keluar
+==============================
+2
+Masukkan data film posisi akhir
+ID Film:
+1567
+Judul Film:
+The Dark Knight Rises
+Rating Film:
+8,4
+size: 3
+==============================
+DATA FILM LAYAR LEBAR
+==============================
+1. Tambah data awal
+2. Tambah data akhir
+3. Tambah data indeks tertentu
+4. Hapus data pertama
+5. Hapus data terakhir
+6. Hapus data indeks tertentu
+7. Cetak
+8. Cari ID film
+9. Urut data rating-DESC
+0. Keluar
+==============================
+3
+Masukkan data film urutan ke-
+3
+ID Film:
+1234
+Judul Film:
+Death on The Nile
+Rating Film:
+6,6
+==============================
+DATA FILM LAYAR LEBAR
+==============================
+1. Tambah data awal
+2. Tambah data akhir
+3. Tambah data indeks tertentu
+4. Hapus data pertama
+5. Hapus data terakhir
+6. Hapus data indeks tertentu
+7. Cetak
+8. Cari ID film
+9. Urut data rating-DESC
+0. Keluar
+==============================
+2
+Masukkan data film posisi akhir
+ID Film:
+1346
+Judul Film:
+Uncharted
+Rating Film:
+6,7
+size: 5
+==============================
+DATA FILM LAYAR LEBAR
+==============================
+1. Tambah data awal
+2. Tambah data akhir
+3. Tambah data indeks tertentu
+4. Hapus data pertama
+5. Hapus data terakhir
+6. Hapus data indeks tertentu
+7. Cetak
+8. Cari ID film
+9. Urut data rating-DESC
+0. Keluar
+==============================
+7
+ID: 1222
+  Judul Film: Spider-Man: No Way Home
+  Rating: 8.7
+
+ID: 1765
+  Judul Film: Skyfall
+  Rating: 7.8
+
+ID: 1567
+  Judul Film: The Dark Knight Rises
+  Rating: 8.4
+
+ID: 1234
+  Judul Film: Death on The Nile
+  Rating: 6.6
+
+ID: 1346
+  Judul Film: Uncharted
+  Rating: 6.7
+
+Jumlah Data: 5
+==============================
+DATA FILM LAYAR LEBAR
+==============================
+1. Tambah data awal
+2. Tambah data akhir
+3. Tambah data indeks tertentu
+4. Hapus data pertama
+5. Hapus data terakhir
+6. Hapus data indeks tertentu
+7. Cetak
+8. Cari ID film
+9. Urut data rating-DESC
+0. Keluar
+==============================
+8
+Cari ID Film:
+1567
+Data Id Film: 1567, berada pada urutan ke-3
+IDENTITAS
+  ID Film: 1567
+  Judul Film: The Dark Knight Rises
+  Rating Film: 8.4
+==============================
+DATA FILM LAYAR LEBAR
+==============================
+1. Tambah data awal
+2. Tambah data akhir
+3. Tambah data indeks tertentu
+4. Hapus data pertama
+5. Hapus data terakhir
+6. Hapus data indeks tertentu
+7. Cetak
+8. Cari ID film
+9. Urut data rating-DESC
+0. Keluar
+==============================
+9
+ID: 1222
+  Judul Film: Spider-Man: No Way Home
+  Rating: 8.7
+
+ID: 1567
+  Judul Film: The Dark Knight Rises
+  Rating: 8.4
+
+ID: 1765
+  Judul Film: Skyfall
+  Rating: 7.8
+
+ID: 1346
+  Judul Film: Uncharted
+  Rating: 6.7
+
+ID: 1234
+  Judul Film: Death on The Nile
+  Rating: 6.6
+==============================
+DATA FILM LAYAR LEBAR
+==============================
+1. Tambah data awal
+2. Tambah data akhir
+3. Tambah data indeks tertentu
+4. Hapus data pertama
+5. Hapus data terakhir
+6. Hapus data indeks tertentu
+7. Cetak
+8. Cari ID film
+9. Urut data rating-DESC
+0. Keluar
+==============================
+2
+Masukkan data film posisi akhir
+ID Film:
+8888
+Judul Film:
+Kungfu Panda
+Rating Film:
+10
+size: 6
+==============================
+DATA FILM LAYAR LEBAR
+==============================
+1. Tambah data awal
+2. Tambah data akhir
+3. Tambah data indeks tertentu
+4. Hapus data pertama
+5. Hapus data terakhir
+6. Hapus data indeks tertentu
+7. Cetak
+8. Cari ID film
+9. Urut data rating-DESC
+0. Keluar
+==============================
+9
+ID: 8888
+  Judul Film: Kungfu Panda
+  Rating: 10.0
+
+ID: 1222
+  Judul Film: Spider-Man: No Way Home
+  Rating: 8.7
+
+ID: 1567
+  Judul Film: The Dark Knight Rises
+  Rating: 8.4
+
+ID: 1765
+  Judul Film: Skyfall
+  Rating: 7.8
+
+ID: 1346
+  Judul Film: Uncharted
+  Rating: 6.7
+
+ID: 1234
+  Judul Film: Death on The Nile
+  Rating: 6.6
+
+Jumlah Data: 6
+```
+
