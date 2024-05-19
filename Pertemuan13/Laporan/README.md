@@ -257,5 +257,7 @@ for (int i = 0; i < index-1; i++) {
 		- ![](Pasted%20image%2020240519091014.png)
 
 ### Jawaban
+1. -
+	1. Kode program
+			![a]()
 1. !
-2. !
