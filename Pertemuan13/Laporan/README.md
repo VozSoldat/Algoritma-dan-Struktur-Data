@@ -259,5 +259,8 @@ for (int i = 0; i < index-1; i++) {
 ### Jawaban
 1. -
 	1. Kode program
-			![a]()
+			[DoubleLinkedList.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan13/tugas1/DoubleLinkedLists.java)
+			[DoubleLinkedListMain.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan13/tugas1/DoubleLinkedListsMain.java)
+			[Node.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan13/tugas1/Node.java)
+			[Pengantri.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan13/tugas1/Pengantri.java)
 1. !
