@@ -11,15 +11,26 @@
             "id": "cf99a2742dcdad93",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Pertemuan13/Laporan/Pasted image 20240519084009.png"
+              }
+            }
+          },
+          {
+            "id": "7e572c9559c5089b",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Pertemuan11/Laporan/Laporan.md",
+                "file": "Pertemuan13/Laporan/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pertemuan11/Laporan/Laporan.md",
+                "file": "Pertemuan13/Laporan/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pertemuan11/Laporan/Laporan.md",
+                "file": "Pertemuan13/Laporan/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pertemuan11/Laporan/Laporan.md"
+                "file": "Pertemuan13/Laporan/README.md"
               }
             }
           }
@@ -143,35 +154,38 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "cf99a2742dcdad93",
+  "active": "7e572c9559c5089b",
   "lastOpenFiles": [
-    "Pertemuan11/Laporan/Pasted image 20240513080846.png",
+    "Pertemuan13/Laporan/Pasted image 20240519085921.png",
+    "Pasted image 20240218104156.png",
+    "Pertemuan13/Laporan/Pasted image 20240519085930.png",
+    "Pertemuan13/Laporan/Pasted image 20240519090002.png",
+    "Pertemuan13/Laporan/Pasted image 20240519090344.png",
+    "Pertemuan13/Laporan/Pasted image 20240519090551.png",
+    "Pertemuan13/Laporan/Pasted image 20240519090820.png",
+    "Pertemuan13/Laporan/README.md",
+    "Pertemuan13/Laporan/Pasted image 20240519091014.png",
+    "Pertemuan13/Laporan/Pasted image 20240519090926.png",
+    "Pertemuan13/Laporan/Pasted image 20240519090841.png",
+    "Pertemuan13/Laporan/Pasted image 20240519090836.png",
     "Pertemuan11/Laporan/Laporan.md",
-    "Pertemuan11/Laporan/Pasted image 20240513080802.png",
+    "Pertemuan13/Laporan",
+    "Pertemuan13/doublelinkedlists/DoubleLinkedListsMain.java",
+    "Pertemuan13/doublelinkedlists/DoubleLinkedLists.java",
+    "Pertemuan13/doublelinkedlists/Node.java",
+    "Pertemuan13/doublelinkedlists",
+    "Pertemuan13",
     "Pertemuan11/Tugas2/Node.java",
     "Pertemuan11/Tugas2/LinkedList.java",
     "minggu11/Tugas2/LinkedList.java",
     "minggu11/Tugas2",
-    "minggu11",
-    "Pertemuan11/Tugas2/SingleLinkedList.java",
-    "Pertemuan11/Tugas2/Mahasiswa.java",
-    "Pertemuan11/Tugas2/Main.java",
-    "Pertemuan11/Tugas2",
-    "Pertemuan11/Tugas1/SingleLinkedList.java",
-    "Pertemuan11/Laporan/Pasted image 20240506102814.png",
     "Pertemuan7/Laporan.md",
     "Pertemuan10/Laporan/Laporan.md",
     "Pertemuan8/Laporan/Laporan.md",
-    "Pertemuan10/Laporan/Pasted image 20240506135550.png",
-    "Pasted image 20240219112153.png",
-    "Pasted image 20240506135545.png",
-    "Pertemuan10/Laporan/Pasted image 20240506134230.png",
-    "Pertemuan11/Laporan/Pasted image 20240506125849.png",
-    "Pertemuan11/Laporan/Pasted image 20240506124901.png",
-    "Pertemuan11/Laporan/Pasted image 20240506123019.png",
     "Pertemuan6/Laporan.md",
     "Pertemuan5/Laporan.md",
     "Pertemuan3/Laporan.md",
