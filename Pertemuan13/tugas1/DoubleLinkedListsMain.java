@@ -42,7 +42,14 @@ public class DoubleLinkedListsMain {
                     dll.removeFirst();
                     dll.print();
                     break;
+
+                case 3:
+                    dll.print();
+                    break;
             
+                case 0:
+                    System.exit(0);
+                    break;
                 default:
                     break;
             }
