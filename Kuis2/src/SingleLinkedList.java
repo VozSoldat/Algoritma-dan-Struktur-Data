@@ -152,7 +152,7 @@ public class SingleLinkedList {
                 i++;
             }
         }
-        sc.close();
+        // sc.close();
     }
     // void remove (String namaClub){
     //     if (isEmpty()) {
@@ -191,10 +191,11 @@ public class SingleLinkedList {
     // }
     public void search(String namaClub){
         Node temp = head;
-        int i = 0;
+        int i = 1;
         while(temp != null){
             if (temp.data.namaCLub.equalsIgnoreCase(namaClub)) {
-                System.out.printf("| %-12s | %-12s | %-12s | %-12s | %-12s | %-12s |\n", i, temp.data.namaCLub, temp.data.jmlMatch, temp.data.jmlMenang, temp.data.jmlKalah, temp.data.point);
+                System.out.printf("| %-4s | %-32s | %-7s | %-7s | %-7s | %-7s |\n", "Rank", "Tim", "Game", "Menang", "Kalah", "Poin");
+                System.out.printf("| %-4s | %-32s | %-7s | %-7s | %-7s | %-7s |\n", i, temp.data.namaCLub, temp.data.jmlMatch, temp.data.jmlMenang, temp.data.jmlKalah, temp.data.point);
                 break;
             }
             temp = temp.next;
@@ -252,7 +253,7 @@ public class SingleLinkedList {
             
         }
         sort();
-        sc.close();
+        // sc.close();
     }
     
     
