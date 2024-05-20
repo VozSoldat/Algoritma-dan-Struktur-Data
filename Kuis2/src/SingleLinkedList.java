@@ -27,16 +27,7 @@ public class SingleLinkedList {
             System.out.println("Linked List Kosong");
         }
     }
-    void addFirst(Club input){
-        Node ndInput = new Node(input, null);
-        if(isEmpty()){
-            head = ndInput;
-            tail = ndInput;
-        }else{
-            ndInput.next = head;
-            head = ndInput;
-        }   
-    }
+    
     void addLast (Club input){
         Node ndInput = new Node(input, null);
         if (!isEmpty()) {
@@ -48,59 +39,6 @@ public class SingleLinkedList {
         }
         sort();
     }
-    // void insertAfter (int key, Club input){
-    //     Node ndInput = new Node(input, null);
-    //     Node temp = head;
-    //     do{
-    //         if (temp.data.` == key) {
-    //             ndInput.next = temp.next;
-    //             temp.next = ndInput;
-    //             if (ndInput.next != null) {
-    //                 tail = ndInput;
-    //                 break;
-    //             }
-    //         }
-    //         temp = temp.next;
-    //     }while (temp == null);
-    // }
-    // void insertAt(int index, int input){
-    //     Node ndInput = new Node(input, null);
-    //     if (index==-1) {
-    //         System.out.println("Salah");
-
-    //     }else if (index == 0) {
-    //         addFirst(input);
-    //     }else{
-    //         Node temp = head;
-    //         for (int i = 0; i < index-1; i++) {
-    //             temp = temp.next;
-    //         }
-    //         temp.next = new Node(input, temp.next);
-    //         if (temp.next.next == null) {
-    //             tail=temp.next;
-    //         }
-    //     }
-    // }
-    Club getData(int index){
-        Node tmp = head;
-        for (int i = 0; i < index; i++) {
-            tmp = tmp.next;
-        }
-        return tmp.data;
-    }
-    // int indexOf(int Club){
-    //     Node tmp =head;
-    //     int index = 0;
-    //     while (tmp != null && tmp.data != key) {
-    //         tmp = tmp.next;
-    //         index++;
-    //     }
-    //     if (tmp == null) {
-    //         return 1;
-    //     }else{
-    //         return index;
-    //     }
-    // }
     void removeFirst(){
         if (isEmpty()) {
             System.out.println("Linked list masing kosong, tidak dapat dihapus");
@@ -128,7 +66,6 @@ public class SingleLinkedList {
         Scanner sc = new Scanner(System.in);
         System.out.println("Masukkan rank club yang ingin di hapus: ");
         int rank = sc.nextInt();
-        // System.out.println("Club " + clubDelete + " telah di hapus");
         if (isEmpty()) {
             System.out.println("Linked list masih kosong, tidak dapat dihapus");
 
@@ -152,43 +89,7 @@ public class SingleLinkedList {
                 i++;
             }
         }
-        // sc.close();
     }
-    // void remove (String namaClub){
-    //     if (isEmpty()) {
-    //         System.out.println("Linked list masih kosong, tidak dapat dihapus");
-
-    //     }else{
-    //         Node temp = head;
-    //         while (temp !=null) {
-    //             if (temp.data.namaCLub.equalsIgnoreCase(namaClub)==false && temp!=head) {
-    //                 removeFirst();
-    //                 break;
-    //             }else if (temp.next.data.namaCLub.equalsIgnoreCase(namaClub)==true) {
-    //                 temp.next = temp.next.next;
-    //                 if (temp.next == null) {
-    //                     tail = temp;
-    //                 }
-    //                 break;
-    //             }
-    //             temp = temp.next;
-    //         }
-    //     }
-    // }
-    // public void removeAt(int index){
-    //     if (index == 0) {
-    //         removeFirst();
-    //     }else{
-    //         Node temp = head;
-    //         for (int i = 0; i < index-1; i++) {
-    //             temp = temp.next;
-    //         }
-    //         temp.next = temp.next.next;
-    //         if (temp.next == null) {
-    //             tail = temp;
-    //         }
-    //     }
-    // }
     public void search(String namaClub){
         Node temp = head;
         int i = 1;
@@ -236,8 +137,6 @@ public class SingleLinkedList {
                 temp.data.point = sc.nextInt();
                 break;
             }else if (i+1==rank) {
-                // System.out.println("Club " + temp.next.data.namaCLub + " telah di hapus");
-                // temp.next = temp.next.next;
                 System.out.print("Masukkan data jumlah game: ");
                 temp.data.jmlMatch = sc.nextInt();
                 System.out.print("Masukkan data jumlah menang: ");
@@ -253,7 +152,7 @@ public class SingleLinkedList {
             
         }
         sort();
-        // sc.close();
+        
     }
     
     

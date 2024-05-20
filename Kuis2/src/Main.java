@@ -83,7 +83,7 @@ public class Main {
                     System.out.println("Pilihan tidak tersedia");
                     break;
             }
-            // sc.close();
+            
         }
     }
 }
