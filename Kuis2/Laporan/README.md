@@ -21,6 +21,6 @@
 	- ![](Pasted%20image%2020240520130024.png)
 	- ![](Pasted%20image%2020240520130106.png)
 - Edit data (jumlah match, menang, kalang, poin)
-	- ![](Pasted%20image%2020240520130316.png) sebelum diedit
+	- sebelum diedit ![](Pasted%20image%2020240520130316.png)
 	- ![](Pasted%20image%2020240520130240.png)
-	- ![](Pasted%20image%2020240520130259.png) sesudah diedit
+	- sesudah diedit ![](Pasted%20image%2020240520130259.png)
