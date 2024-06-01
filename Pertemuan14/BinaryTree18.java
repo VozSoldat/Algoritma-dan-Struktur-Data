@@ -203,9 +203,17 @@ public class BinaryTree18 {
         }
         return terbesar(node.right);
     }
-
+    public void printDataDiLeaves(Node18 root){
+        if (!isEmpty()) {
+            System.out.println("Tree kosong!");
+            return;
+        }
+        System.out.println("Data di leaves: ");
+        
+        System.out.println();
+    }
     public int countLeaf(Node18 node) {
-        if (root==null) {
+        if (node==null) {
             return 0;
         }
         

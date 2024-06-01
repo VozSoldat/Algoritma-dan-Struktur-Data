@@ -49,6 +49,9 @@ public class BinaryTreeMain18 {
 
         System.out.print("Jumlah leaf: ");
         // bt.countLeaf(bt.root);
-        // System.out.println(bt.countLeaf(bt.root));
+        System.out.println(bt.countLeaf(bt.root));
+        System.out.println();
+
+        // bt.printDataDiLeaves(bt.root);
     }
 }

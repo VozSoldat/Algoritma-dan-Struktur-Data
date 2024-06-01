@@ -92,4 +92,6 @@ PreOrder Traversal:  6 4 3 5 8 7 9 10 15
 	 - method `traversePreOrder()` dan `traversePostOrder()
 `
 ### Jawaban
-1. 
+1. [BinaryTree18.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTree18.java) ln: 162
+2. [BinaryTree18.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTree18.java) ln: 184
+3. [BinaryTree18.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTree18.java) ln: 
