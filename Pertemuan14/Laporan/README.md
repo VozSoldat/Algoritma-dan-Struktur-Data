@@ -97,4 +97,5 @@ PreOrder Traversal:  6 4 3 5 8 7 9 10 15
 3. [BinaryTree18.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTree18.java) ln: 206
 4. [BinaryTree18.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTree18.java) ln: 215
 5. ...
-	1. [BinaryTreeArray.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTreeArray18.java) 
+	1. [BinaryTreeArray.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTreeArray18.java) ln: 21
+	2. [BinatyTreeArray.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTreeArray18.java) ln: 38
