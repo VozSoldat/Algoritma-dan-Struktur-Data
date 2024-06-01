@@ -203,11 +203,9 @@ public class BinaryTree18 {
         }
         return terbesar(node.right);
     }
-    public int countLeaf() {
-        return countLeaf(root);
-    }
+
     public int countLeaf(Node18 node) {
-        if (isEmpty()) {
+        if (root==null) {
             return 0;
         }
         
