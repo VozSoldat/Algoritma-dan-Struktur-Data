@@ -17,6 +17,11 @@ public class BinaryTreeArrayMain {
 
         System.out.print("PostOrder Traversal : ");
         bta.traversePostorder(0);
+        bta.add(22);
+        System.out.println();
+
+        // bta.traversePostorder(0);
+        
     }
 
 

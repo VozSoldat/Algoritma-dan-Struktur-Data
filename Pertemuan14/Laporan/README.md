@@ -94,4 +94,7 @@ PreOrder Traversal:  6 4 3 5 8 7 9 10 15
 ### Jawaban
 1. [BinaryTree18.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTree18.java) ln: 162
 2. [BinaryTree18.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTree18.java) ln: 184
-3. [BinaryTree18.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTree18.java) ln: 
+3. [BinaryTree18.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTree18.java) ln: 206
+4. [BinaryTree18.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTree18.java) ln: 215
+5. ...
+	1. [BinaryTreeArray.java](https://github.com/VozSoldat/Algoritma-dan-Struktur-Data/blob/main/Pertemuan14/BinaryTreeArray18.java) 

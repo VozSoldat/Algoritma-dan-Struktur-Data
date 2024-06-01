@@ -19,10 +19,6 @@ public class BinaryTreeArray18 {
         }
     }
     public void add(int input) {
-        // if (idxLast == data.length) {
-        //     resizeArray();
-        // }
-        
         data[idxLast] = input;
         idxLast++;
         
@@ -39,12 +35,6 @@ public class BinaryTreeArray18 {
             }
         }
     }
-    // public void traversePreOrder(int idxStart) {
-    //     if (idxStart <= idxLast) {
-    //         System.out.print(data[idxStart]+" ");
-    //         traversePreOrder(2*idxStart+1);
-    //     }
-    // }
     public void traversePreorder() {
         traversePreorder(0);
     }
