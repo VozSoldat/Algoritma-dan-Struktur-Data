@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pertemuan14/Laporan/README.md",
+                "file": "Pertemuan15/Laporan/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pertemuan14/Laporan/README.md",
+                "file": "Pertemuan15/Laporan/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pertemuan14/Laporan/README.md",
+                "file": "Pertemuan15/Laporan/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pertemuan14/Laporan/README.md"
+                "file": "Pertemuan15/Laporan/README.md"
               }
             }
           }
@@ -158,33 +158,37 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "1f32b64a7d53bb72",
+  "active": "7e572c9559c5089b",
   "lastOpenFiles": [
+    "Pertemuan15/Pertemuan15/src/Graph18.java",
+    "Pertemuan15/Pertemuan15/src/App.java",
+    "Pertemuan15/Pertemuan15/src/Graph19.java",
+    "Pertemuan15/Pertemuan15/src/GraphMain18.java",
+    "Kuis2/src/Node18.java",
+    "Pertemuan15/Pertemuan15/src/DoubleLinkedLists.java",
+    "Pertemuan15/Pertemuan15/src/Node18.java",
+    "Pertemuan15/Pertemuan15/src",
+    "Pertemuan15/Pertemuan15/README.md",
+    "Pertemuan15/Pertemuan15/lib",
+    "Pertemuan15/Pertemuan15",
+    "Pertemuan15/Laporan/Untitled.md",
+    "Pertemuan15/Laporan/README.md",
+    "Pertemuan14/Laporan/README.md",
+    "Pertemuan13/Laporan/README.md",
+    "Pertemuan15/Laporan",
+    "Pertemuan13/Laporan/Pasted image 20240519084009.png",
     "Pertemuan14/Laporan/Pasted image 20240527132738.png",
     "Pasted image 20240218104156.png",
     "Pertemuan14/Laporan/Pasted image 20240527140239.png",
     "Pertemuan14/Laporan/Pasted image 20240527132918.png",
-    "Pertemuan14/Laporan/README.md",
-    "Pertemuan14/BinaryTreeArrayMain.java",
-    "Pertemuan14/Laporan/BinaryTreeArrayMain.java",
-    "Pertemuan14/BinaryTreeArray18.java",
-    "Pertemuan13/Laporan/README.md",
     "Kuis2/Laporan/README.md",
-    "Pertemuan14/Laporan",
     "Kuis2/Laporan/Pasted image 20240520124300.png",
     "Kuis2/Laporan/Pasted image 20240520124740.png",
     "Kuis2/Laporan/Pasted image 20240520124810.png",
     "Kuis2/Laporan/Pasted image 20240520130316.png",
     "Kuis2/Laporan/Pasted image 20240520130259.png",
-    "Kuis2/Laporan/Pasted image 20240520130240.png",
     "Pertemuan2/Laporan.md",
     "Kuis2/README.md",
-    "Kuis2/Laporan",
-    "Pertemuan13/tugas2/Film.java",
-    "Pertemuan13/tugas2/Node.java",
-    "Pertemuan13/tugas2/DoubleLinkedListsMain.java",
-    "Pertemuan13/tugas2/DoubleLinkedLists.java",
-    "Pertemuan13/tugas2",
     "Pertemuan11/Laporan/Laporan.md",
     "Pertemuan7/Laporan.md",
     "Pertemuan10/Laporan/Laporan.md",

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class SingleLinkedList {
-    Node head, tail;
+    Node18 head, tail;
 
     boolean isEmpty(){
         if(head == null){
@@ -12,7 +12,7 @@ public class SingleLinkedList {
     }
     void print(){
         if (!isEmpty()) {
-            Node tmp = head;
+            Node18 tmp = head;
             System.out.println("Standings: ");
             System.out.println("====================");
             System.out.printf("| %-4s | %-32s | %-7s | %-7s | %-7s | %-7s |\n", "Rank", "Tim", "Game", "Menang", "Kalah", "Poin");
@@ -29,7 +29,7 @@ public class SingleLinkedList {
     }
     
     void addLast (Club input){
-        Node ndInput = new Node(input, null);
+        Node18 ndInput = new Node18(input, null);
         if (!isEmpty()) {
             tail.next = ndInput;
             tail = ndInput;
@@ -54,7 +54,7 @@ public class SingleLinkedList {
             System.out.println("Linked list masih kosong, tidak dapat dihapus");
 
         }else{
-            Node temp = head;
+            Node18 temp = head;
             while(temp.next.next != null){
                 temp = temp.next;
             }
@@ -70,7 +70,7 @@ public class SingleLinkedList {
             System.out.println("Linked list masih kosong, tidak dapat dihapus");
 
         }else{
-            Node temp = head;
+            Node18 temp = head;
             int i=1;
             while (temp !=null) {
                 if (rank==1 && temp == head) {
@@ -91,7 +91,7 @@ public class SingleLinkedList {
         }
     }
     public void search(String namaClub){
-        Node temp = head;
+        Node18 temp = head;
         int i = 1;
         while(temp != null){
             if (temp.data.namaCLub.equalsIgnoreCase(namaClub)) {
@@ -104,9 +104,9 @@ public class SingleLinkedList {
         }
     }
     public void sort(){
-        Node temp = head;
+        Node18 temp = head;
         while (temp != null) {
-            Node temp2 = temp.next;
+            Node18 temp2 = temp.next;
             while (temp2 != null) {
                 if (temp.data.point < temp2.data.point) {
                     Club temp3 = temp.data;
@@ -123,7 +123,7 @@ public class SingleLinkedList {
         Scanner sc = new Scanner(System.in);
         int rank = sc.nextInt();
         
-        Node temp = head;
+        Node18 temp = head;
         int i=1;
         while (temp !=null) {
             if (rank==1 && temp == head) {
