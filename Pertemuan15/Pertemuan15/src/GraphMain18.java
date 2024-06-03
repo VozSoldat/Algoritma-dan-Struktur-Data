@@ -10,7 +10,7 @@ public class GraphMain18 {
         gedung.degree(0);
         gedung.printGraph();
 
-        // gedung.removeEdge(1, 3);
+        gedung.removeEdge(1, 3);
         gedung.printGraph();
     }
 }

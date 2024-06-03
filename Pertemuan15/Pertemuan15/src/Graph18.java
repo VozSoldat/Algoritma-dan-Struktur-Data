@@ -1,5 +1,3 @@
-
-
 public class Graph18 {
     int vertex;
     DoubleLinkedLists list[];
