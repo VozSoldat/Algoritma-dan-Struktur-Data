@@ -11,6 +11,21 @@ public class DoubleLinkedLists {
         return head == null;
     }
 
+
+    public void addLast(int item, int jarak){
+        if (isEmpty()) {
+            addFirst(item,jarak);
+        }else{
+            Node18 current = head;
+            while (current.next != null) {
+                current = current.next;
+            }
+            Node18 newNode = new Node18(current, item, jarak, null);
+            current.next = newNode;
+            size++;
+        }
+    }
+    
     public void addFirst(int item, int jarak){
         if (isEmpty()) {
             head = new Node18(null, item, jarak, null);
@@ -65,6 +80,16 @@ public class DoubleLinkedLists {
             tmp = tmp.next;
         }
         return tmp.data;
+    }
+    public int getByData(int data) throws Exception{
+        Node18 tmp = head;
+        for (int i = 0; i < size; i++) {
+            if (tmp.data == data) {
+                return i;
+            }
+            tmp = tmp.next;
+        }
+        return -1;
     }
 
     public void clear(){

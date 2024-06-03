@@ -12,6 +12,7 @@ public class Graph18 {
 
     public void addEdge(int asal, int tujuan, int jarak){
         list[asal].addFirst(tujuan, jarak);
+        // list[asal].addLast(tujuan, jarak);
     }
     
     // list[tujuan].addFirst(asal, jarak);
@@ -64,5 +65,13 @@ public class Graph18 {
             }
         }
         System.out.println("");
+    }
+
+    public boolean cekEdge(int asal, int tujuan) throws Exception{
+        if (list[asal].getByData(tujuan) !=-1) {
+            return true;
+        }else{
+            return false;
+        }
     }
 } 
