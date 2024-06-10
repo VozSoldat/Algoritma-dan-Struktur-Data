@@ -111,4 +111,6 @@ public class DoubleLinkedLists {
         current.jarak = jarak;
 
     }
+
+    // public int 
 }

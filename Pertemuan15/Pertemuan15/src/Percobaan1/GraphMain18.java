@@ -73,6 +73,10 @@ public class GraphMain18 {
                     
                     case 6:
                     return;
+
+                    case 10:
+                    gedung.hitungEdge();
+                    break;
                     
                     default:
                     // tes updateJarak

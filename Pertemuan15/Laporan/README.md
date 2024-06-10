@@ -277,4 +277,47 @@
 	}
 	```
 
-2. 
+2. Kode program:
+	Update Data di DLL
+	```java
+	public void updateData(int tujuan, int jarak){
+		Node18 current = head;
+		while (current != null) {
+			if (current.data == tujuan) {
+				break;
+			}
+			current.data = current.jarak;
+			current = current.next;
+		}
+		current.jarak = jarak;
+	}
+	```
+	
+	Update Data di Graph.java
+	```java
+	public void updateJarak(int asal, int tujuan, int jarak) throws Exception{
+		list[asal].updateData(tujuan, jarak);
+	}
+	```
+	
+	![](Pasted%20image%2020240610194513.png)
+
+3. Kode program:
+	```java
+	public void hitungEdge(int asal, int tujuan) throws Exception{
+		System.out.print("Total edge: ");
+		int edge=0;
+		for (int i = 0; i < list.length; i++) {
+			Node18 current = list[i].head;
+			while (current != null) {
+				current.data = current.jarak;
+				current = current.next;
+				edge++;
+			}
+			
+		}
+		System.out.println(edge);
+	}
+	```
+	
+	![](Pasted%20image%2020240610200238.png)

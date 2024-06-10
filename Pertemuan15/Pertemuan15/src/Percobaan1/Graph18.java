@@ -79,4 +79,22 @@ public class Graph18 {
     public void updateJarak(int asal, int tujuan, int jarak) throws Exception{
         list[asal].updateData(tujuan, jarak);
     }
+
+    public void hitungEdge() throws Exception{
+        System.out.print("Total edge: ");
+        int edge=0;
+        for (int i = 0; i < list.length; i++) {
+            Node18 current = list[i].head;
+            while (current != null) {
+                current.data = current.jarak;
+                current = current.next;
+                edge++;
+            }
+            
+        }
+        System.out.println(edge);
+    }
+
+
+
 } 
