@@ -29,6 +29,7 @@
 	- Kode program
 		- main
 			```java
+			...
 			Scanner sc = new Scanner(System.in);
 			System.out.println("=====================");
 			System.out.println("Pengecekan edge");
@@ -74,16 +75,57 @@
 -
 
 ### 2.2. Verifikasi Hasil Percobaan
-
+![](Pasted%20image%2020240603193409.png)
 
 ### 2.3. Pertanyaan
-1. -
+1. Perbaiki kode program Anda apabila terdapat error atau hasil kompilasi kode tidak sesuai! 
+2. Apa jenis graph yang digunakan pada Percobaan 2? 
+3. Apa maksud dari dua baris kode berikut? ![](Pasted%20image%2020240603193451.png)
+4. Modifikasi kode program sehingga terdapat method untuk menghitung degree, termasuk inDegree dan outDegree!
 
 ### Jawaban
 1. -
+2. Jenis graph tersebut adalah graph matriks.
+3. Baris kode pertama berfungsi untuk menyimpan informasi hubungan (edge) antara verteks 1 dan 2 dengan panjang 70 dalam elemen array indeks (1,2). Baris kode kedua berfungsi untuk menyimpan edge antara verteks 2 dan 1.
+4. Hasil run: ![](Pasted%20image%2020240609182210.png)
+	```java
+	public int inDegree(int asal){
+		int total=0;
+		for (int i = 0; i < matriks.length; i++) {
+			if (matriks[asal][i] != 0) {
+				total++;
+			}
+			i++;
+		}
+		return total;
+	}
+	
+	public int outDegree(int asal){
+		int total=0;
+		for (int i = 0; i < matriks.length; i++) {
+			if (matriks[i][asal] != 0) {
+				total++;
+			}
+			i++;
+		}
+		return total;
+	}
+	public int degree(int asal){
+		
+		return inDegree(asal) + outDegree(asal);
+	}
+	```
 
 ## 3. Latihan Praktikum
-1. -
+1. Modifikasi kode program pada class GraphMain sehingga terdapat menu program yang bersifat dinamis, setidaknya terdiri dari: 
+	1. Add Edge
+	2. Remove Edge 
+	3. Degree 
+	4. Print Graph 
+	5. Cek Edge
+	Pengguna dapat memilih menu program melalui input Scanner
+2. Tambahkan method `updateJarak` pada Percobaan 1 yang digunakan untuk mengubah jarak antara dua node asal dan tujuan! 
+3. Tambahkan method `hitungEdge` untuk menghitung banyaknya edge yang terdapat di dalam graf!
 `
 ### Jawaban
 1. -
