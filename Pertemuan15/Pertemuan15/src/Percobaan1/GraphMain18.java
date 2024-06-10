@@ -15,6 +15,9 @@ public class GraphMain18 {
             System.out.println("3. degree");
             System.out.println("4. Print graph");
             System.out.println("5. cek edge");
+            System.out.println("6. Exit");
+            System.out.println("9. Update ajarak");
+            System.out.println("10. Hitung edge");
             int pilih = sc.nextInt();
             
             switch (pilih) {
@@ -77,8 +80,8 @@ public class GraphMain18 {
                     case 10:
                     gedung.hitungEdge();
                     break;
-                    
-                    default:
+
+                    case 9:
                     // tes updateJarak
                     System.out.println("=====================");
                     System.out.println("Update jarak");
@@ -90,6 +93,10 @@ public class GraphMain18 {
                     System.out.print("Masukkan jarak: ");
                     jarak = sc.nextInt();
                     gedung.updateJarak(asal, tujuan, jarak);
+                    break;
+
+                    
+                    default:
                     break;
             }
         }
