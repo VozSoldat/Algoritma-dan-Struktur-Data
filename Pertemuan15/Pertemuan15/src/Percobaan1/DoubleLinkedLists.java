@@ -97,4 +97,18 @@ public class DoubleLinkedLists {
         head = null;
         size = 0;
     }
+
+    public void updateData(int tujuan, int jarak){
+        Node18 current = head;
+        while (current != null) {
+            if (current.data == tujuan) {
+                break;
+            }
+            current.data = current.jarak;
+            current = current.next;
+        }
+
+        current.jarak = jarak;
+
+    }
 }

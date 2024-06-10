@@ -75,4 +75,8 @@ public class Graph18 {
             return false;
         }
     }
+
+    public void updateJarak(int asal, int tujuan, int jarak) throws Exception{
+        list[asal].updateData(tujuan, jarak);
+    }
 } 

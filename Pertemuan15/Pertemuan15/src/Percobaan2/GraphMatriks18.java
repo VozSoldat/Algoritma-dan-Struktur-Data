@@ -54,4 +54,8 @@ public class GraphMatriks18 {
         
         return inDegree(asal) + outDegree(asal);
     }
+
+    public boolean cekEdge(int asal, int tujuan){
+        return matriks[asal][tujuan] != 0;
+    }
 }
